@@ -6,7 +6,7 @@ Atividades desenvolvidas por mim [mim](https://www.linkedin.com/in/ruan-portella
 
 ## Módulo: Fundamentos :clock1:
 
-#### Seção 01: [Unix e Bash](https://github.com/Ruan-Portella/Trybe_Exercicios/tree/main/fundamentos/secao-01-unix-e-shell)
+#### Seção 01: [Unix e Bash](https://github.com/Ruan-Portella/Trybe_Exercicios/tree/main/fundamentos/secao-01-unix-e-bash)
 
 - [x] 1.1 - Unix & Bash - Parte 1
 - [x] 1.2 - Unix & Bash - Parte 2
