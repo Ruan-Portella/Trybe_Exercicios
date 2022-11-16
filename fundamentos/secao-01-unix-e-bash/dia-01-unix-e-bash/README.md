@@ -6,8 +6,8 @@
 
 Resolução: 
 
-Parte I - mkdir Desktop/Trybe/trybe_exercicios/fundamentos/secao-01-unix-e-bash/unix_tests
-Parte 2 - cd Desktop/Trybe/trybe_exercicios/fundamentos/secao-01-unix-e-bash/unix_tests
+- Parte I - mkdir Desktop/Trybe/trybe_exercicios/fundamentos/secao-01-unix-e-bash/unix_tests
+- Parte 2 - cd Desktop/Trybe/trybe_exercicios/fundamentos/secao-01-unix-e-bash/unix_tests
 
 ### 2. Crie um arquivo de texto com o nome `trybe.txt`.
 
@@ -63,8 +63,8 @@ Resolução: rm -rf trybe1.txt
 
 Resolução: 
 
-Parte I: mkdir unix_tests_search
-Parte II: cd unix_tests_search
+- Parte I: mkdir unix_tests_search
+- Parte II: cd unix_tests_search
 
 ### 2. Na pasta `unix_tests_search`, baixe um arquivo com os nomes de todos os países do mundo utilizando o comando `curl`.
 
@@ -82,8 +82,8 @@ Resolução: less countries.txt
 
 Resolução: 
 
-Parte I: less countries.txt
-Parte II: /Zambia
+- Parte I: less countries.txt
+- Parte II: /Zambia
 
 ### 6. Apague o diretório `countries.txt`. 
 
