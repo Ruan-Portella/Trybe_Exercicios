@@ -18,4 +18,4 @@
 - 12. `git clone` - clona o repositório remoto para o local
 - 13. `git remote -v` -  mostra as permissões do repositório
 - 14. `git push -u origin nome da branch` - envia as alterações do repositório local para o remoto
-- 15. `git pull origin nome da branch` - trás as alterações do repositório local para o remoto
+- 15. `git pull origin nome da branch` - trás as alterações do repositório remoto para o local
