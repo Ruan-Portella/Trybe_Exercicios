@@ -15,3 +15,13 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/ruan-portella-734
 
 - :white_check_mark: 2.1 - Git - O que é e para que serve
 - :white_check_mark: 2.2 - GitHub - Entendendo os comandos
+
+
+#### Seção 03: [Introdução à HTML & CSS](https://github.com/Ruan-Portella/Trybe_Exercicios/tree/main/fundamentos/secao-03-introducao-a-html-e-css)
+
+- :white_check_mark: 3.1 - HTML & CSS - Estruturas de páginas
+- :clock1: 3.2 - HTML & CSS - Primeiros passos em CSS
+- :clock1: 3.3 - HTML & CSS - Seletores e posicionamento
+- :clock1: 3.4 - HTML & CSS - Semântico
+- :clock1: 3.5 - Projetos - Lessons Learned
+
