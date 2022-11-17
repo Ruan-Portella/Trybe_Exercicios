@@ -1,0 +1,28 @@
+
+     h1 {
+        color: orange;
+       font-size: 65px;
+       font-family: sans-serif;
+     }
+
+     ul {
+        background-color: black;
+     }
+
+     .fundo {
+        background-color: aqua;
+
+     }
+
+     p {
+        font-weight: 600;
+        font-size: 3em;
+     }
+
+     body {
+        font-size: 16px;
+        font-style: italic;
+        line-height: 60px;
+        text-align: center;
+        text-decoration: underline;
+     }

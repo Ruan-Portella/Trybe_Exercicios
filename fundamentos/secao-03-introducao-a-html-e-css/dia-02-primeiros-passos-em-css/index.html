@@ -1,0 +1,81 @@
+<!--
+
+    Exercícios 
+
+## Parte I - Introdução ao CSS
+
+### 1. Mofique o tamanho do h1 para 65 pixels;
+### 2. Modifique a cor do texto do h1 para laranja.
+### 3. Crie uma classe para modificar a cor de fundo da tag p e da ul ao mesmo tempo.
+### 4. Modifique a cor de fundo da lista não ordenada.
+
+## Parte II - Propriedades de texto no CSS
+
+### 1. Modifique o font-family do h1 para sans-serif; 
+### 2. Deixe o parágrafo com o font-weight 600;
+### 3. Modifique o font-size do body para 16px;
+### 4. Coloque o tamanho do parágrafo com o tamanho de 3 vezes o padrão do body;
+### 5. Explore as propriedades font-style, line-height, text-align e text-decoration;
+
+## Parte III - CSS inline e externo
+
+### 1. Coloque todo o CSS da tag style em um arquivo externo
+
+Resolução: 
+
+--> 
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+    <link rel="stylesheet" href="./style.css">
+   <!-- <style>
+
+    
+     h1 {
+        color: orange;
+       font-size: 65px;
+       font-family: sans-serif;
+     }
+
+     ul {
+        background-color: black;
+     }
+
+     .fundo {
+        background-color: aqua;
+
+     }
+
+     p {
+        font-weight: 600;
+        font-size: 3em;
+     }
+
+     body {
+        font-size: 16px;
+        font-style: italic;
+        line-height: 60px;
+        text-align: center;
+        text-decoration: underline;
+     }
+    
+
+    </style> --> 
+</head>
+<body>
+    <h1>Frutas</h1>
+    <p class="fundo">Qual é a sua fruta favorita</p>
+    <ul class="fundo">
+        <li>Maça</li>
+        <li>Banana</li>
+        <li>Goiaba</li>
+    </ul>
+    
+</body>
+</html>
