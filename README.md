@@ -22,6 +22,6 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/ruan-portella-734
 - :white_check_mark: 3.1 - HTML & CSS - Estruturas de páginas
 - :white_check_mark: 3.2 - HTML & CSS - Primeiros passos em CSS
 - :white_check_mark: 3.3 - HTML & CSS - Seletores e posicionamento
-- :clock1: 3.4 - HTML & CSS - Semântico
+- :white_check_mark: 3.4 - HTML & CSS - Semântico
 - :clock1: 3.5 - Projetos - Lessons Learned
 
