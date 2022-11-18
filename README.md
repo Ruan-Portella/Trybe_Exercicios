@@ -20,8 +20,8 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/ruan-portella-734
 #### Seção 03: [Introdução à HTML & CSS](https://github.com/Ruan-Portella/Trybe_Exercicios/tree/main/fundamentos/secao-03-introducao-a-html-e-css)
 
 - :white_check_mark: 3.1 - HTML & CSS - Estruturas de páginas
-- :clock1: 3.2 - HTML & CSS - Primeiros passos em CSS
-- :clock1: 3.3 - HTML & CSS - Seletores e posicionamento
+- :white_check_mark: 3.2 - HTML & CSS - Primeiros passos em CSS
+- :white_check_mark: 3.3 - HTML & CSS - Seletores e posicionamento
 - :clock1: 3.4 - HTML & CSS - Semântico
 - :clock1: 3.5 - Projetos - Lessons Learned
 
