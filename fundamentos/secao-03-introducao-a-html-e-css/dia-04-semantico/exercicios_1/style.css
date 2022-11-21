@@ -1,24 +1,40 @@
-.caixa {
-   color: white;
-   display: inline-block;
-   line-height: 50px;
+h1 {
    text-align: center;
-   vertical-align: top;
-}
+ }
 
-.width-and-height {
+ h3 {
+   text-align: center;
+ }
+
+ ul {
+   display: inline;
+   text-align: center;
+ }
+
+ .first {
+   background-color: rgb(235, 200, 84);
+   font-size: 20px;
    height: 50px;
-   width: 50px;
-}
+   text-align: center;
+   width: 200px;
+   display: block;
+   margin-left: 200px;
+ }
 
-.padding {
-   padding: 20px;
-}
+ .second {
+   background-color: rgb(219, 219, 219);
+   font-size: 20px;
+   height: 50px;
+   text-align: center;
+   width: 300px;
+   display: inline-block;
+ }
 
-.margin {
-   margin: 30px;
-}
-
-.border {
-   border: 5px solid black;
-}
+ .third {
+   background-color: rgb(170, 142, 106);
+   font-size: 20px;
+   height: 50px;
+   text-align: center;
+   width: 300px;
+   display: inline-block;
+ }

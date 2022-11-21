@@ -59,7 +59,17 @@
 - 52 `left` - Especifica a posição horizontal do elemento.
 - 53 `z-index` - Ordem que os elementos serão mostrados.
 - 54 `float` - flutua um elemento.
-- 55 `:houver` - O elemento muda quando o mouse passa por cima.
+- 55 `:hover` - O elemento muda quando o mouse passa por cima.
 - 56 `:active` - O elemento muda quando clica nele.
 - 57 `transitions` - Permitem definir a transição entre dois estados de um elemento.
 - 58 `nth-of-type` - Aplica um valor para o enesimo número.
+- 59 `header` - Representa o cabeçalho
+- 60 `nav` - Representa links de navegação
+- 61 `article` - Representa um Artigo
+- 62 `section` - Representa uma seção
+- 63 `aside` - Representa a barra lateral
+- 64 `footer` - Representa o rodapé
+- 65 `main` - Representa o conteúdo principal
+- 66 `b` - Deixa o texto em negrito
+- 67 `i` - Deixa o texto em italico
+- 
