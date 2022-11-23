@@ -72,4 +72,7 @@
 - 65 `main` - Representa o conteúdo principal
 - 66 `b` - Deixa o texto em negrito
 - 67 `i` - Deixa o texto em italico
-- 
+- 68 `table` - Cria uma tabela
+- 69 `tr` - Cria uma linha da tabela
+- 70 `td` - Coloca as informações na linha
+- 71 `th` - Cabeçalho da tabela
