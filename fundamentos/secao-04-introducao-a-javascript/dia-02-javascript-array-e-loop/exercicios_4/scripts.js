@@ -1,35 +1,63 @@
-// 1. Crie uma constante chamada “currentHour”, que receba um número entre 4 e 24 de sua escolha, para representar as horas do dia.
+// 1. Percorra o array imprimindo todos os valores nele contidos com a função console.log();
+// 2. Some todos os valores contidos no array e imprima o resultado;
+// 3. Calcule e imprima a média aritmética dos valores contidos no array;
+// Com base no código que acabou de gerar, faça com que, caso o valor final seja maior que 20, imprima a mensagem: “valor maior que 20”. Caso não seja, imprima a mensagem: “valor menor ou igual a 20”;
+// 5. Utilizando for, descubra qual o maior valor contido no array e imprima-o;
+// 6. Descubra quantos valores ímpares existem no array e imprima o resultado. Caso não exista nenhum, imprima a mensagem: “nenhum valor ímpar encontrado”;
+// 8. Utilizando for, crie um array que vá de 1 até 25 e imprima o resultado;
+// 9. Utilizando o array que acabou de criar, imprima o resultado da divisão de cada um dos elementos por 2.
 
-// 2. Crie uma variável chamada “message” que, inicialmente, é uma string vazia.
 
-// 3. Implemente condicionais para que:
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27]; 
+let soma = 0
+let maior = numbers[0]
 
-// 4. Se o horário for maior ou igual a 22, insira “Não deveríamos comer nada, é hora de dormir” na variável “message”.
+//    for (let number of numbers) {
+//         console.log(number)
+        
+//    }
 
-// 5. Se o horário for maior ou igual a 18 e menor que 22, insira “Rango da noite, vamos jantar :D” na variável “message”.
+    // for (let index = 0; index < numbers.length; index +=1) {
+    //         soma += numbers[index];
+    //         console.log(soma);
+    // }
 
-// 6. Se o horário for maior ou igual a 14 e menor que 18, insira “Vamos fazer um bolo pro café da tarde?” na variável “message”.
+    // for (let index = 0; index < numbers.length; index +=1) {
+    //            soma += numbers[index];
+    // }
 
-// 7. Se o horário estiver entre 11 e 14, insira “Hora do almoço!!!” na variável “message”.
+    // let media = soma / numbers.length
+    // console.log(media)
 
-// 8. Se o horário estiver entre 4 e 11, insira “Hmmm, cheiro de café recém-passado” na variável “message”.
+    // if (soma > 20) {
+    //     console.log('valor maior que 20');
+    // } else if (soma <= 20) {
+    //     console.log('valor menor que 20');
+    // }
 
-// 9. Agora imprima a variável message fora das suas condições.
+    // for (let index = 0; index < numbers.length; index +=1) {
+    //         if(numbers[index] > maior) {
+    //             maior = numbers[index];
+    //         }
+    // } console.log(maior)
 
-const currentHour = 10;
-var message = '';
+    //     for (let index = 0; index < numbers.length; index +=1) {
+    //         if(numbers[index] %2 !== 0) {
+    //             maior += 1;
+    //         }
+    // } if (maior === 0) {
+    //     console.log('nenhum valor')
+    // } else {
+    //     console.log(maior)
+    // }
 
-    if (currentHour >= 22) { 
-        message = 'Não deveríamos comer nada, é hora de dormir'
-        console.log(message)
-    } else if (currentHour >= 18 && currentHour < 22) {
-        message = 'Rango da noite, vamos jantar :D'
-    } else if (currentHour >= 14 && currentHour < 18) {
-        message = 'Rango da noite, vamos jantar :D' 
-    } else if (currentHour > 11 && currentHour < 14) {
-        message = 'Hora do almoço!!!' 
-    } else if (currentHour > 4 && currentHour < 11) {
-        message = 'Hmmm, cheiro de café recém-passado' 
-    }
-    
-    console.log(message);
+// let numbers_2 = []
+
+//     for (let index = 1; index <= 25; index += 1) {
+//         numbers_2.push(index);
+//     } console.log(numbers_2(index) / 2);
+
+ 
+
+
+
