@@ -32,4 +32,6 @@
 - 26 `for (variavel index)` - faz um loop
 - 27 `index` - Valor dentro do array
 - 28 `indexOf()` - procura o indice de um item
-- 29 ``
+- 29 `of` - Tras o valor de um elemento
+- 30 `while` - Executa a repetiçao com uma condição
+- 31 ``
