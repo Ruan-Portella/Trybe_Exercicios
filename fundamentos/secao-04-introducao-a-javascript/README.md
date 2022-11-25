@@ -21,3 +21,15 @@
 - 15 `case 'name':` - Atribui um valor para ser analizado pelo switch
 - 16 `break` - para o código quando o resultado for atingido
 - 17 `default:` - retorna um valor caso o valor passado não encaixe em nenhum dos cases
+- 18 `[]` - Coloca varios valores
+- 19 `.push()` - Coloca Elementos no final
+- 20 `.unshift()` - Coloca Elementos no inicio
+- 21 `.pop()` - Tira Elementos do Final
+- 22 `.shift()` - Tira Elementos do Inicio
+- 23 `.toFixed()` - Limita as caracteres
+- 24 `.length` - Mostra quantos Elementos possui
+- 25 `.sort` - Coloca em Ordem Alfabetica
+- 26 `for (variavel index)` - faz um loop
+- 27 `index` - Valor dentro do array
+- 28 `indexOf()` - procura o indice de um item
+- 29 ``
