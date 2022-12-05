@@ -1,15 +1,28 @@
-// 1. Crie uma variável chamada “weekDay” que receba a string “quarta-feira”.
+// 1. Ordene o array numbers em ordem crescente e imprima seus valores;
+// 3. Agora, crie um novo array a partir do array numbers, sem perdê-lo. Cada valor do novo array deverá ser igual ao valor correspondente no array numbers multiplicado pelo seguinte. Por exemplo: o primeiro valor do novo array deverá ser 45, pois é a multiplicação de 5 (primeiro valor) e 9 (valor seguinte). Já o segundo valor do novo array deverá ser 27, pois é a multiplicação de 9 (segundo valor) e 3 (valor seguinte), e assim por diante. Caso não haja próximo valor, a multiplicação deverá ser feita por 2. Faça isso utilizando o for e o método push. O resultado deve ser o array abaixo:
 
-// 2. Utilizando if/else, implemente condicionais para que:
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
-// 3. Se nossa variável “weekDay” for “segunda-feira”, “terça-feira”, “quarta-feira”, “quinta-feira” ou “sexta-feira”, imprima “Oba, mais um dia de aprendizado na Trybe >:D”.
+// for (let index = 1; index < numbers.length; index += 1) {
+//   for (let secondIndex = 0; secondIndex < index; secondIndex += 1) {
+//     if (numbers[index] < numbers[secondIndex]) {
+//       let position = numbers[index];
+//       numbers[index] = numbers[secondIndex];
+//       numbers[secondIndex] = position;
+//     }
+//   }
+// }
 
-// 4. Se for algum dia de fim de semana, imprima “FINALMENTE, descanso merecido UwU”.
+// console.log(numbers);
 
-var weekDay = 'quarta-feira';
+let newArray = [];
 
-    if (weekDay === 'segunda-feira' || weekDay === 'terça-feira' || weekDay === 'quarta-feira'|| weekDay === 'quinta-feira' || weekDay ==='sexta-feira') {
-        console.log('Oba, mais um dia de aprendizado na Trybe >:D');
-    } else {
-        console.log('FINALMENTE, descanso merecido UwU')
-    }
+for (let index = 0; index < numbers.length; index += 1) {
+  if (index + 1 < numbers.length) {
+    newArray.push(numbers[index] * numbers[index + 1]);
+  } else {
+    newArray.push(numbers[index] * 2);
+  }
+}
+
+console.log(newArray);
