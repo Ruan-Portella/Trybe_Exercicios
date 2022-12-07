@@ -29,8 +29,16 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/ruan-portella-734
 
 - :white_check_mark: 4.1 - JavaScript - Primeiros Passos
 - :white_check_mark: 4.2 - JavaScript - Array e Loop For
-- :clock9: 4.3 - JavaScript - Lógica de Programação e Algoritmos
-- :clock9: 4.4 - JavaScript - Objetos e Funções
-- :clock9: 4.5 - JavaScript - Let, Const, Arrow Functions e Template Literals
-- :clock9: 4.6 - Projetos - Playground Functions
+- :white_check_mark: 4.3 - JavaScript - Lógica de Programação e Algoritmos
+- :white_check_mark: 4.4 - JavaScript - Objetos e Funções
+- :white_check_mark: 4.5 - JavaScript - Let, Const, Arrow Functions e Template Literals
+- :white_check_mark: 4.6 - Projetos - Playground Functions
 
+#### Seção 04: [Javascript: DOM, Eventos e Web Storage](https://github.com/Ruan-Portella/Trybe_Exercicios/tree/main/fundamentos/secao-05-dom-eventos-e-webstorage)
+
+- :white_check_mark: 5.1 - JavaScript - DOM e Seletores
+- :clock9: 5.2 - JavaScript - Trabalhando com elementos
+- :clock9: 5.3 - JavaScrixt - Eventos
+- :clock9: 5.4 - JavaScript - Web Storage
+- :clock9: 5.5 - Projetos - Arte com Pixels
+- :clock9: 5.6 - Projetos - Projetos Bônus

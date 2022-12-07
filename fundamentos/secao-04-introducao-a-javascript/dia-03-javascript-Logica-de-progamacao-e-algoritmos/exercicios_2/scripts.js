@@ -1,9 +1,11 @@
-// 1. Utilize o for para imprimir os elementos da lista groceryList com o console.log():
+// 1. Utilize a estrutura de repetição for para desenvolver um algoritmo que seja capaz de inverter uma palavra. 
 
-let groceryList = ['Arroz', 'Feijão', 'Alface', 'Melancia'];
+let word = 'Trybe';
+let reseveWord = '';
 
-    for (let index = 0; index < groceryList.length; index += 1) {
-        console.log(groceryList[index]);
+    for (let index = 0; index < word.length; index += 1) {
+        reseveWord += word[word.length -1];
     }
 
+console.log(reseveWord);
 

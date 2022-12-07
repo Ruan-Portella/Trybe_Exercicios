@@ -1,28 +1,89 @@
-// 1. Ordene o array numbers em ordem crescente e imprima seus valores;
-// 3. Agora, crie um novo array a partir do array numbers, sem perdê-lo. Cada valor do novo array deverá ser igual ao valor correspondente no array numbers multiplicado pelo seguinte. Por exemplo: o primeiro valor do novo array deverá ser 45, pois é a multiplicação de 5 (primeiro valor) e 9 (valor seguinte). Já o segundo valor do novo array deverá ser 27, pois é a multiplicação de 9 (segundo valor) e 3 (valor seguinte), e assim por diante. Caso não haja próximo valor, a multiplicação deverá ser feita por 2. Faça isso utilizando o for e o método push. O resultado deve ser o array abaixo:
+// 1. Escreva um programa que, dado um valor n qualquer, seja n > 1, imprima na tela um quadrado feito de asteriscos de lado de tamanho n.
 
-let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let n = 3;
+let symbol = '*';
+let inputLine = '';
 
-// for (let index = 1; index < numbers.length; index += 1) {
-//   for (let secondIndex = 0; secondIndex < index; secondIndex += 1) {
-//     if (numbers[index] < numbers[secondIndex]) {
-//       let position = numbers[index];
-//       numbers[index] = numbers[secondIndex];
-//       numbers[secondIndex] = position;
+  // for (let lineIndex = 0; lineIndex < n; lineIndex += 1) {
+  //   inputline = inputline + simbolo;
+  // };
+  // for (let lineIndex = 0; lineIndex < n; lineIndex += 1) {
+  //   console.log(inputline);
+  // }
+
+// Faça o mesmo que antes, mas que imprima um triângulo retângulo com 5 asteriscos de base.
+
+  // for (let lineIndex = 0; lineIndex <= n; lineIndex += 1) {
+  //   console.log(inputline);
+  //   inputline = inputline + simbolo;
+  // }
+
+// Agora inverta o lado do triângulo. 
+
+let inputPosition = n - 1;
+
+for (let lineIndex = 0; lineIndex < n; lineIndex += 1) {
+  for (let columnIndex = 0; columnIndex < n; columnIndex += 1) {
+    if (columnIndex < inputPosition) {
+      inputLine = inputLine + ' ';
+    } else {
+      inputLine = inputLine + symbol;
+    }
+  }
+  console.log(inputLine);
+  inputLine = '';
+  inputPosition -= 1;
+};
+
+// Depois, faça uma pirâmide com n asteriscos de base:
+
+// let midOfMatrix = (n + 1) / 2;
+// let controlLeft = midOfMatrix;
+// let controlRight = midOfMatrix;
+
+// for (let lineIndex = 0; lineIndex <= midOfMatrix; lineIndex += 1) {
+//   for (let columnIndex = 0; columnIndex <= n; columnIndex += 1) {
+//     if (columnIndex > controlLeft && columnIndex < controlRight) {
+//       inputLine = inputLine + symbol;
+//     } else {
+//       inputLine = inputLine + ' ';
 //     }
 //   }
+//   console.log(inputLine);
+//   inputLine = '';
+//   controlRight += 1;
+//   controlLeft -= 1
+// };
+
+// Faça uma pirâmide com n asteriscos de base que seja vazia no meio. Assuma que o valor de n será sempre ímpar:
+
+// let middle = (n + 1) / 2;
+// let controlLeft = middle;
+// let controlRight = middle;
+// for (let line = 1; line <= middle; line += 1) {
+//   let outputLine = '';
+//   for (let col = 1; col <= n; col += 1) {
+//     if (col == controlLeft || col == controlRight || line == middle) {
+//       outputLine += symbol;
+//     } else {
+//       outputLine += ' ';
+//     }
+//   }
+//   controlLeft -= 1;
+//   controlRight += 1;
+//   console.log(outputLine);
 // }
 
-// console.log(numbers);
+// Faça um programa que diz se um número definido numa variável é primo ou não.
 
-let newArray = [];
+// let divisors = 1;
+// let numberToCheck = 31;
 
-for (let index = 0; index < numbers.length; index += 1) {
-  if (index + 1 < numbers.length) {
-    newArray.push(numbers[index] * numbers[index + 1]);
-  } else {
-    newArray.push(numbers[index] * 2);
-  }
-}
+// for (let number = 2; number <= numberToCheck; number += 1) {
+//   if (numberToCheck % number === 0) divisors += 1;
+// }
 
-console.log(newArray);
+// if (divisors === 2) console.log(numberToCheck + ' é primo');
+// else console.log(numberToCheck + ' não é primo');
+
+

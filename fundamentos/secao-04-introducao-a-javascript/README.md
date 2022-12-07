@@ -34,4 +34,9 @@
 - 28 `indexOf()` - procura o indice de um item
 - 29 `of` - Tras o valor de um elemento
 - 30 `while` - Executa a repetiçao com uma condição
-- 31 ``
+- 31 `console.table` - Mostra os valores em tabela
+- 32 `.` - Atribui as propriedades do objeto
+- 32 `for (let key in name)` - Percorre as propriedades dos objetos
+- 33 `for (let name of name)` - Percorre os valores das propriedades dos objetos
+- 34 `function` - Função
+- 35 `return` - Retorna uma função

@@ -1,8 +1,10 @@
+// Crie um Algoritmo que imprima na tela o fatorial de 10
 
-let menu = ['Home', 'Serviços', 'Portfólio', 'Links'];
-// let menuServices = menu[1]
-// let menuServices = menu.indexOf('Serviços')
-let menuServices = menu.push('Contato')
+let fatorial = 1;
 
+    for (let index = 10; index > 0; index -= 1) { 
+        fatorial *= index
 
-console.log(menuServices[index]);
+    }
+
+console.log(fatorial);
