@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <main id="paiDoPai">
+    <section id="pai">
+      <section id="primeiroFilho">
+        <h2>Primeiro Filho</h2>
+      </section>
+      <section id="elementoOndeVoceEsta">
+        <h2>Elemento que você deve remover</h2>
+      </section>
+      <section id="terceiroFilho">
+        <h2>Terceiro Filho</h2>
+      </section>
+      <section id="quartoEUltimoFilho">
+        <h2>Quarto Filho</h2>
+      </section>
+    </section>
+  </main>
+</body>
+<script>
+    
+          const pai = document.getElementById('pai');
+          const todosOsFilhos = pai.childNodes;
+  
+          for (let index = todosOsFilhos.length - 1; index >= 0; index -= 1) {
+            const filhoAtual = todosOsFilhos[index];
+  
+            if (filhoAtual.id === 'elementoOndeVoceEsta') { // verifica se o id do filho atual é igual a 'elementoOndeVoceEsta'
+              filhoAtual.removeChild(filhoAtual.firstElementChild); // remove o primeiro elemento do filho atual, no caso a tag <h2>
+            }
+          }
+  </script>
+</html>
