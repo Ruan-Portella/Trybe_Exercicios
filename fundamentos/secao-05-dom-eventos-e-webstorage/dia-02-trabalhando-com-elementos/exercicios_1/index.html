@@ -1,0 +1,82 @@
+<!-- Crie e execute uma função que mude o texto na tag <p>-----</p>, para uma descrição de como você se vê daqui a 2 anos;
+Crie e execute uma função que mude a cor do quadrado para preto;
+Crie e execute uma função que corrija o texto da tag <h1>;
+Crie e execute uma função que modifique o texto da primeira tag <p> para maiúsculo;
+Crie e execute uma função que exiba o conteúdo de todas as tags <p> no console. -->
+
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício</title>
+    
+    <style>
+      main, section {
+        border-color: black;
+        border-style: solid;
+      }
+
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: red;
+        width: 50%;
+        margin: 0 auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <header> 
+      <h1 class="title">Desafio - JavaEscripito</h1>
+    </header>    
+    <main class="main-content">
+      <section class="center-content">
+        <p>Texto padrão do nosso site</p>
+        <p>-----</p>
+        <p>Trybe</p>
+      </section>
+    </main>
+    <script>
+
+        function changeText() {
+            let paragraph = document.getElementsByTagName(`p`)[1];
+            paragraph.innerHTML = 'Ruan';
+        } changeText();
+
+        function changeColor() {
+            let colortext = document.getElementsByClassName(`main-content`)[0];
+            colortext.style.background = 'Black';
+        } changeColor()
+
+        function correctTitle() {
+            let correct = document.getElementsByTagName(`h1`)[0];
+            correct.innerHTML = 'Desafio - JavaScript';
+        } correctTitle()
+
+        function paragraph() {
+            let upper = document.getElementsByTagName('p')[0];
+            upper.innerText = upper.innerHTML.toUpperCase();
+        } paragraph()
+
+        function show() {
+            let paragraph = document.getElementsByTagName('p');
+            for (let index = 0; index < paragraph.length; index += 1) {
+                console.log(paragraph[index].innerHTML);
+            }
+        } show();
+    </script>
+  </body>
+</html>
