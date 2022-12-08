@@ -37,7 +37,7 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/ruan-portella-734
 #### Seção 04: [Javascript: DOM, Eventos e Web Storage](https://github.com/Ruan-Portella/Trybe_Exercicios/tree/main/fundamentos/secao-05-dom-eventos-e-webstorage)
 
 - :white_check_mark: 5.1 - JavaScript - DOM e Seletores
-- :clock9: 5.2 - JavaScript - Trabalhando com elementos
+- :white_check_mark: 5.2 - JavaScript - Trabalhando com elementos
 - :clock9: 5.3 - JavaScrixt - Eventos
 - :clock9: 5.4 - JavaScript - Web Storage
 - :clock9: 5.5 - Projetos - Arte com Pixels
