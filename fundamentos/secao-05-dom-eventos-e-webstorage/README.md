@@ -31,3 +31,10 @@
 - 25 `.appendChild()` - Adiciona um Elemento HTML
 - 26 `.removeChild()` - Remove um Elemento HTML
 - 27 `.includes()` - Se inclui o elemento passado
+- 28 `window.onload` - Ao iniciar a pagina carrega uma função
+- 29 `onclick` - Espera eventos de clique
+- 30 `.addEventListener()` - Adiciona o Escutar de Elemento com uma função
+- 31 `name.target` - Mostra de onde saiu o evento
+- 32 `name.type` - Mostra o tipo de escutador
+- 33 `parseInt` - Retorna uma string em um numero inteiro
+- 
