@@ -1,28 +1,57 @@
-// 1. Ordene o array numbers em ordem crescente e imprima seus valores;
-// 3. Agora, crie um novo array a partir do array numbers, sem perdê-lo. Cada valor do novo array deverá ser igual ao valor correspondente no array numbers multiplicado pelo seguinte. Por exemplo: o primeiro valor do novo array deverá ser 45, pois é a multiplicação de 5 (primeiro valor) e 9 (valor seguinte). Já o segundo valor do novo array deverá ser 27, pois é a multiplicação de 9 (segundo valor) e 3 (valor seguinte), e assim por diante. Caso não haja próximo valor, a multiplicação deverá ser feita por 2. Faça isso utilizando o for e o método push. O resultado deve ser o array abaixo:
+//  Usando o objeto abaixo, faça os exercícios a seguir:
 
-let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
-// for (let index = 1; index < numbers.length; index += 1) {
-//   for (let secondIndex = 0; secondIndex < index; secondIndex += 1) {
-//     if (numbers[index] < numbers[secondIndex]) {
-//       let position = numbers[index];
-//       numbers[index] = numbers[secondIndex];
-//       numbers[secondIndex] = position;
-//     }
-//   }
-// }
+let info = {
+  personagem: 'Margarida',
+  origem: 'Pato Donald',
+  nota: 'Namorada do personagem principal nos quadrinhos do Pato Donald',
+  recorrente: 'Sim'
+};
 
-// console.log(numbers);
+// Imprima no console uma mensagem de boas-vindas para a personagem acima, incluindo seu nome. Use a sintaxe meuObjeto.chave.
 
-let newArray = [];
+console.log(`Boas-Vindas ${info.personagem}`);
 
-for (let index = 0; index < numbers.length; index += 1) {
-  if (index + 1 < numbers.length) {
-    newArray.push(numbers[index] * numbers[index + 1]);
-  } else {
-    newArray.push(numbers[index] * 2);
-  }
+// Insira no objeto uma nova propriedade com o nome de chave ‘recorrente’ e o valor ‘Sim’ e, em seguida, imprima o objeto no console. Use a sintaxe meuObjeto['chave'] = valor.
+
+info['recorrente'] = 'Sim'
+console.log(info.recorrente);
+
+// Faça um for/in que mostre todas as chaves do objeto.
+
+for (const key in info) {
+  console.log(key);
 }
 
-console.log(newArray);
+// Faça um novo for/in, mas agora mostre todos os valores das chaves do objeto. 
+
+for (const key in info) {
+  console.log(info[key]);
+}
+
+let leitor = {
+  nome: 'Julia',
+  sobrenome: 'Pessoa',
+  idade: 21,
+  livrosFavoritos: [
+    {
+      titulo: 'O Pior Dia de Todos',
+      autor: 'Daniela Kopsch',
+      editora: 'Tordesilhas',
+    },
+  ],
+};
+
+// Acesse as chaves nome, sobrenome e titulo, que está dentro da chave livrosFavoritos, e faça um console.log no seguinte formato: “O livro favorito de Julia Pessoa se chama ‘O Pior Dia de Todos’”.
+
+console.log(`O livro favorito de ${leitor.nome} ${leitor.sobrenome} se chama ${leitor.livrosFavoritos[0].titulo}`);
+
+// Adicione um novo livro favorito na chave livrosFavoritos, que é um array. Atribua a essa chave um objeto contendo as seguintes informações:
+
+leitor.livrosFavoritos.push(
+  {
+    titulo: 'Harry Potter e o Prisioneiro de Azkaban',
+    autor: 'JK Rowling',
+    editora: 'Rocco',
+  },
+);
