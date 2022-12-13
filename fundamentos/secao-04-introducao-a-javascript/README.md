@@ -40,3 +40,7 @@
 - 33 `for (let name of name)` - Percorre os valores das propriedades dos objetos
 - 34 `function` - Função
 - 35 `return` - Retorna uma função
+- 36 `split` -  transformará a string em um array onde cada posição será uma letra da string.
+- 37 `reverse` - fará o array ficar de trás pra frente.
+- 38 `join` - Faz com que todo o array vire uma string novamente.
+
