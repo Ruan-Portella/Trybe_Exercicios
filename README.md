@@ -34,11 +34,20 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/ruan-portella-734
 - :white_check_mark: 4.5 - JavaScript - Let, Const, Arrow Functions e Template Literals
 - :white_check_mark: 4.6 - Projetos - Playground Functions
 
-#### Seção 04: [Javascript: DOM, Eventos e Web Storage](https://github.com/Ruan-Portella/Trybe_Exercicios/tree/main/fundamentos/secao-05-dom-eventos-e-webstorage)
+#### Seção 05: [Javascript: DOM, Eventos e Web Storage](https://github.com/Ruan-Portella/Trybe_Exercicios/tree/main/fundamentos/secao-05-dom-eventos-e-webstorage)
 
 - :white_check_mark: 5.1 - JavaScript - DOM e Seletores
 - :white_check_mark: 5.2 - JavaScript - Trabalhando com elementos
-- :clock9: 5.3 - JavaScrixt - Eventos
-- :clock9: 5.4 - JavaScript - Web Storage
-- :clock9: 5.5 - Projetos - Arte com Pixels
-- :clock9: 5.6 - Projetos - Projetos Bônus
+- :white_check_mark: 5.3 - JavaScrixt - Eventos
+- :white_check_mark: 5.4 - JavaScript - Web Storage
+- :white_check_mark: 5.5 - Projetos - Arte com Pixels
+- :white_check_mark: 5.6 - Projetos - Projetos Bônus
+
+#### Seção 06: [HTML & CSS: Forms, Flexbox e Responsivo](https://github.com/Ruan-Portella/Trybe_Exercicios/tree/main/fundamentos/secao-06-html-e-css-forms-flexbox-e-responsivos)
+
+- :white_check_mark: 5.1 - Html & Css - Forms
+- :white_check_mark: 5.2 - Biblioteca Javascript e Frameworks Css
+- :clock9: 5.3 - Css Flexbox - Parte 1
+- :clock9: 5.4 - Css Flexbox - Parte 2
+- :clock9: 5.5 - Css Responsivo - Mobile Frist
+- :clock9: 5.6 - Projetos - TrybleWarts
