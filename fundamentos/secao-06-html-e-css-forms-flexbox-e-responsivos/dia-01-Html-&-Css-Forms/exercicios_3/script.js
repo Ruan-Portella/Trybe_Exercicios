@@ -1,21 +1,20 @@
-const header = document.getElementById('header-container');
-header.style.backgroundColor = 'rgb(0, 176, 105)';
-
-const emergencyTasks = document.getElementsByClassName('emergency-tasks')[0];
-emergencyTasks.style.backgroundColor = 'rgb(255, 159, 132)';
-
-const emergencyTasksHeaders = document.querySelectorAll('.emergency-tasks h3');
-for (let index = 0; index < emergencyTasksHeaders.length; index += 1) {
-  emergencyTasksHeaders[index].style.backgroundColor = 'rgb(165, 0, 243)';
+function clearFields() {
+  const formElements = document.querySelectorAll('input');
+  const textArea = document.querySelector('textarea');
+  for (let index = 0; index < formElements.length; index += 1) {
+    const userInput = formElements[index];
+    if(formElements[index].type === 'radio' || formElements[index].type === 'checkbox'){
+      userInput.checked = false;
+    } else {
+      userInput.value = '';
+    }
+  }
+  textArea.value = '';
 }
 
-const noEmergencyTasks = document.querySelector('.no-emergency-tasks');
-noEmergencyTasks.style.backgroundColor = 'rgb(249, 219, 94)';
-
-const noEmergencyTasksHeaders = document.querySelectorAll('.no-emergency-tasks h3');
-for (let index = 0; index < noEmergencyTasksHeaders.length; index += 1) {
-  noEmergencyTasksHeaders[index].style.backgroundColor = 'rgb(35, 37, 37)';
-}
-
-const footer = document.getElementById('footer-container');
-footer.style.backgroundColor = 'rgb(0, 53, 51)';
+window.onload = function () {
+  const clearBtn = document.querySelector('#clear-btn');
+  clearBtn.addEventListener('click', clearFields);
+  const submitBtn = document.querySelector('#submit-btn');
+  submitBtn.addEventListener('click', handleSubmit);
+};
