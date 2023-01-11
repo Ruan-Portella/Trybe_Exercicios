@@ -43,7 +43,7 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/ruan-portella-734
 - :white_check_mark: 5.5 - Projetos - Arte com Pixels
 - :white_check_mark: 5.6 - Projetos - Projetos Bônus
 
-#### Seção 06: [Javascript: DOM, Eventos e Web Storage](https://github.com/Ruan-Portella/Trybe_Exercicios/tree/main/fundamentos/secao-05-dom-eventos-e-webstorage)
+#### Seção 06: [HTML & CSS: Forms, Flexbox e Responsivo](https://github.com/Ruan-Portella/Trybe_Exercicios/tree/main/fundamentos/secao-06-html-eventos-e-webstorage)
 
 - :white_check_mark: 5.1 - Html & Css - Forms
 - :white_check_mark: 5.2 - Biblioteca Javascript e Frameworks Css
