@@ -1,82 +1,62 @@
-<!-- Crie e execute uma função que mude o texto na tag <p>-----</p>, para uma descrição de como você se vê daqui a 2 anos;
-Crie e execute uma função que mude a cor do quadrado para preto;
-Crie e execute uma função que corrija o texto da tag <h1>;
-Crie e execute uma função que modifique o texto da primeira tag <p> para maiúsculo;
-Crie e execute uma função que exiba o conteúdo de todas as tags <p> no console. -->
-
-
-
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>Exercício</title>
-    
-    <style>
-      main, section {
-        border-color: black;
-        border-style: solid;
-      }
-
-      .title {
-        text-align: center;
-      }
-
-      .main-content {
-        background-color: yellow;
-      }
-
-      .main-content .center-content {
-        background-color: red;
-        width: 50%;
-        margin: 0 auto;
-      }
-
-      .main-content .center-content p {
-        font-style: italic;
-      }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Formulario-TrybeTrip</title>
   </head>
   <body>
-    <header> 
-      <h1 class="title">Desafio - JavaEscripito</h1>
-    </header>    
-    <main class="main-content">
-      <section class="center-content">
-        <p>Texto padrão do nosso site</p>
-        <p>-----</p>
-        <p>Trybe</p>
-      </section>
-    </main>
-    <script>
+    <h1>Concorra à Viagem dos seus sonhos com a TrybeTrip</h1>
 
-        function changeText() {
-            let paragraph = document.getElementsByTagName(`p`)[1];
-            paragraph.innerHTML = 'Ruan';
-        } changeText();
+    <form>
+      <fieldset>
+        <div class="row mb-3">
+          <div class="col">
+        <label for="fullName" lass="col-sm-2 col-form-label">Nome Completo:</label>
+        <input class="form-control" type="text" id="fullName" name="fullName" placeholder="Digite seu nome completo" maxlength="40" minlength="10" required>      
+        <br/>
+        </div>
+        <div class="col">
 
-        function changeColor() {
-            let colortext = document.getElementsByClassName(`main-content`)[0];
-            colortext.style.background = 'Black';
-        } changeColor()
+        <label for="email" lass="col-sm-2 col-form-label">Endereço de e-mail:</label>
+        <input class="form-control" type="email" id="email" name="email" placeholder="Digite seu e-mail" maxlength="50" minlength="10" required>
+        <br/>
+      </div>
+      </div>
 
-        function correctTitle() {
-            let correct = document.getElementsByTagName(`h1`)[0];
-            correct.innerHTML = 'Desafio - JavaScript';
-        } correctTitle()
+        <label for="destination1">Cidade</label>
+        <input type="radio" id="destination1" className="radios" name="destinations" value="Cidade" required>
 
-        function paragraph() {
-            let upper = document.getElementsByTagName('p')[0];
-            upper.innerText = upper.innerHTML.toUpperCase();
-        } paragraph()
+        <label for="destination2">Campo</label>
+        <input type="radio" id="destination2" className="radios" name="destinations" value="Campo" required>
 
-        function show() {
-            let paragraph = document.getElementsByTagName('p');
-            for (let index = 0; index < paragraph.length; index += 1) {
-                console.log(paragraph[index].innerHTML);
-            }
-        } show();
-    </script>
+        <label for="destination3">Praia</label>
+        <input type="radio" id="destination3" className="radios" name="destinations" value="Praia" required>
+
+        <label for="destination4">Montanhas</label>
+        <input type="radio" id="destination4" className="radios" name="destinations" value="Montanhas" required>
+        <br/>
+
+        <label for="why">Por que você deveria ser a pessoa desenvolvedora escolhida pelo concurso TrybeTrip?</label>
+        <br/>
+        <textarea name="why" id="why" cols="60" rows="10" placeholder="Digite sua resposta vencedora aqui"></textarea>
+        <br/>
+
+        <label for="date">Qual a melhor data para realizar sua viagem?</label>
+        <input type="date" id="date">
+        <br/>
+
+        <label for="promo">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe.</label>
+        <input type="checkbox" name="promo" id="promo">
+        <br/>
+
+        <label for="agreement">Concordo que imagens de minhas férias poderão ser usadas na divulgação de concursos futuros.</label>
+        <input type="checkbox" name="agreement" id="agreement" required>
+      </fieldset>
+
+      <button type="submit" id="submit-btn" disabled>Participar do concurso TrybeTrip</button>
+      <button type="button" id="clear-btn">Apagar informações</button>
+    </form>
   </body>
 </html>

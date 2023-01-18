@@ -45,9 +45,16 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/ruan-portella-734
 
 #### Seção 06: [HTML & CSS: Forms, Flexbox e Responsivo](https://github.com/Ruan-Portella/Trybe_Exercicios/tree/main/fundamentos/secao-06-html-e-css-forms-flexbox-e-responsivos)
 
-- :white_check_mark: 5.1 - Html & Css - Forms
-- :white_check_mark: 5.2 - Biblioteca Javascript e Frameworks Css
-- :clock9: 5.3 - Css Flexbox - Parte 1
-- :clock9: 5.4 - Css Flexbox - Parte 2
-- :clock9: 5.5 - Css Responsivo - Mobile Frist
-- :clock9: 5.6 - Projetos - TrybleWarts
+- :white_check_mark: 6.1 - Html & Css - Forms
+- :white_check_mark: 6.2 - Biblioteca Javascript e Frameworks Css
+- :white_check_mark: 6.3 - Css Flexbox - Parte 1
+- :white_check_mark: 6.4 - Css Flexbox - Parte 2
+- :white_check_mark: 6.5 - Css Responsivo - Mobile Frist
+- :white_check_mark: 6.6 - Projetos - TrybleWarts
+
+#### Seção 07: [Introdução à JavaScript ES6 e Teste Unitários](https://github.com/Ruan-Portella/Trybe_Exercicios/tree/main/fundamentos/secao-07-introducao-a-javascriptes6)
+
+- :white_check_mark: 7.1 - Fluxo de Exceções e manipulação de objetos
+- :clock9: 7.2 - Primeiros passos em Jest
+- :clock9: 7.3 - Matchers e Cobertura de código
+- :clock9: 7.4 - Projeto - JavaScript Teste Unitários
