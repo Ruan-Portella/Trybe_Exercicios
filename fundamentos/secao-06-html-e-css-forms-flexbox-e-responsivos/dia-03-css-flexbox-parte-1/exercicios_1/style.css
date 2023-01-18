@@ -5,12 +5,89 @@
   font-family: 'Ubuntu';
 }
 
+.header-container {
+  align-items: center;
+  background-color: #323333;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
 .header-img {
   width: 70px;
 }
 
+h1 {
+  color: rgb(238, 238, 238);
+  font-size: 1.3rem;
+}
+
+h3 {
+  color: rgb(194, 194, 194);
+  font-size: 1rem;
+  text-decoration: underline;
+}
+
+h3:hover {
+  color: #0fa36b;
+}
+
+.text-section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
+  margin-top: 12px;
+  width: 100%;
+}
+
+p {
+  color: #232525;
+  font-size: 1.5rem;
+  text-align: center;
+  width: 90%;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px auto 13px auto;
+  width: 45%;
+}
+
+.gallery-card {
+  align-items: center;
+  background-color: rgb(241, 241, 241);
+  border-radius: 15px;
+  box-shadow: 2px 3px rgba(161, 161, 161, 0.5);
+  display: flex;
+  flex-direction: column;
+  height: 220px;
+  justify-content: center;
+  margin: 0 10px 15px 0;
+  width: 180px;
+}
+
+h4 {
+  color: #5C687C;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
 .gallery-img {
   width: 150px;
+}
+
+hr {
+  margin-top: 10px;
+  width: 25%;
+  margin: auto;
+}
+
+footer {
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
 .social-img {
