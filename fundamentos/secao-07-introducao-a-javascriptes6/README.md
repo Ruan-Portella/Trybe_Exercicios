@@ -9,3 +9,7 @@
 - 3 `try` - Ele busca pra ver se tem algo errado 
 - 4 `catch` - Captura um erro
 - 5 `erros.message` - envia o erro como mensagem
+- 6 `Object.keys` - Retorna um array de strings das chaves
+- 7 `Object.value` - Retorna um array de strings dos valores das chaves
+- 8 `Object.entries` - Retorna um array de arrays da chave e valor
+- 9 `Object.assign` - Adiciona o valor de outro objeto no qual deseja
