@@ -55,6 +55,6 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/ruan-portella-734
 #### Seção 07: [Introdução à JavaScript ES6 e Teste Unitários](https://github.com/Ruan-Portella/Trybe_Exercicios/tree/main/fundamentos/secao-07-introducao-a-javascriptes6)
 
 - :white_check_mark: 7.1 - Fluxo de Exceções e manipulação de objetos
-- :clock9: 7.2 - Primeiros passos em Jest
+- :white_check_mark: 7.2 - Primeiros passos em Jest
 - :clock9: 7.3 - Matchers e Cobertura de código
 - :clock9: 7.4 - Projeto - JavaScript Teste Unitários
