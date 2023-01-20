@@ -56,5 +56,5 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/ruan-portella-734
 
 - :white_check_mark: 7.1 - Fluxo de Exceções e manipulação de objetos
 - :white_check_mark: 7.2 - Primeiros passos em Jest
-- :clock9: 7.3 - Matchers e Cobertura de código
+- :white_check_mark: 7.3 - Matchers e Cobertura de código
 - :clock9: 7.4 - Projeto - JavaScript Teste Unitários
