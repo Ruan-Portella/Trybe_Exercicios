@@ -21,3 +21,7 @@
 - 15 `expect` - recebe o valor a ser testado e retorna um objeto representando uma expectativa
 - 16 `.toBe()` - Testa igualdade estrita entre o valor passado para expect e seu argumento.
 - 17 `.toEqual()` - Acessa cada elemento do objeto ou array, fazendo um trabalho de comparação específico
+- 18 `.toContain` - verifica se um array contém um item em particular
+- 19 `.toHaveProperty` -  testa se um objeto possui uma propriedade específica
+- 20 `.toThrow` - testa se uma função é capaz de lançar um erro quando executada.
+- 21 `npm test -- --coverage` - mostra a cobertura de codigo
