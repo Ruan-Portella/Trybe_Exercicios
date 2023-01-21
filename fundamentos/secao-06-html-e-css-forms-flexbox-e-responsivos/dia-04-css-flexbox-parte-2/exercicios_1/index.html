@@ -1,82 +1,72 @@
-<!-- Crie e execute uma função que mude o texto na tag <p>-----</p>, para uma descrição de como você se vê daqui a 2 anos;
-Crie e execute uma função que mude a cor do quadrado para preto;
-Crie e execute uma função que corrija o texto da tag <h1>;
-Crie e execute uma função que modifique o texto da primeira tag <p> para maiúsculo;
-Crie e execute uma função que exiba o conteúdo de todas as tags <p> no console. -->
-
-
-
 <!DOCTYPE html>
-<html>
+<html lang="pt">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>Exercício</title>
-    
-    <style>
-      main, section {
-        border-color: black;
-        border-style: solid;
-      }
-
-      .title {
-        text-align: center;
-      }
-
-      .main-content {
-        background-color: yellow;
-      }
-
-      .main-content .center-content {
-        background-color: red;
-        width: 50%;
-        margin: 0 auto;
-      }
-
-      .main-content .center-content p {
-        font-style: italic;
-      }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRYFLIX</title>
+    <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <header> 
-      <h1 class="title">Desafio - JavaEscripito</h1>
-    </header>    
-    <main class="main-content">
-      <section class="center-content">
-        <p>Texto padrão do nosso site</p>
-        <p>-----</p>
-        <p>Trybe</p>
+    <header class="header-container">
+      <nav class="menu-container">
+        <ul>
+          <li>Cadastre-se</li>
+          <li>Conecte-se</li>
+          <li>Sobre</li>
+        </ul>
+      </nav>
+      <section class="logo-container">
+        <img
+          src="https://fontmeme.com/permalink/201215/2044acc483426f38dc2c79c3c84ab998.png"
+          alt="Website Logo"
+        />
       </section>
-    </main>
-    <script>
+    </header>
+    
+    <main class="main-container">
+      <section class="movie-container">
+        <section>
+          <h2>Assista hoje</h2>
+          <div class="card-container">
+            <div>FILMES 1</div>
+            <div>FILMES 2</div>
+            <div>FILMES 3</div>
+            <div>FILMES 4</div>
+            <div>FILMES 5</div>
+            <div>FILMES 6</div>
+            <div>FILMES 7</div>
+            <div>FILMES 8</div>
+            <div>FILMES 9</div>
+          </div>
+        </section>
+        <article>
+          <h2>Mais assitidos</h2>
+          <div class="card-container">
+            <div>FILMES 1</div>
+            <div>FILMES 2</div>
+            <div>FILMES 3</div>
+            <div>FILMES 4</div>
+            <div>FILMES 5</div>
+            <div>FILMES 6</div>
+            <div>FILMES 7</div>
+            <div>FILMES 8</div>
+            <div>FILMES 9</div>
+          </div>
+        </article>
+      </section>
+  <aside class="aside-container">
+    <h3>Últimas notícias</h3>
 
-        function changeText() {
-            let paragraph = document.getElementsByTagName(`p`)[1];
-            paragraph.innerHTML = 'Ruan';
-        } changeText();
+    <h4>Title</h4>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet officia in provident esse excepturi ipsam!</p>
 
-        function changeColor() {
-            let colortext = document.getElementsByClassName(`main-content`)[0];
-            colortext.style.background = 'Black';
-        } changeColor()
+    <h4>Title</h4>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet officia in provident esse excepturi ipsam!</p>
 
-        function correctTitle() {
-            let correct = document.getElementsByTagName(`h1`)[0];
-            correct.innerHTML = 'Desafio - JavaScript';
-        } correctTitle()
+    <h4>Title</h4>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet officia in provident esse excepturi ipsam!</p>
+  </aside>
+</main>
 
-        function paragraph() {
-            let upper = document.getElementsByTagName('p')[0];
-            upper.innerText = upper.innerHTML.toUpperCase();
-        } paragraph()
-
-        function show() {
-            let paragraph = document.getElementsByTagName('p');
-            for (let index = 0; index < paragraph.length; index += 1) {
-                console.log(paragraph[index].innerHTML);
-            }
-        } show();
-    </script>
   </body>
 </html>
