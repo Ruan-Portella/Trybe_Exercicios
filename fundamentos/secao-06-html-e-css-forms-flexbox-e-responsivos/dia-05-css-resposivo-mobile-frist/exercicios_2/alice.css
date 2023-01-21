@@ -1,0 +1,64 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  p {
+    padding: 20px;
+  }
+  
+  /* TODO */
+  
+  /* Aqui está o primeiro breakpoint e os estilos definidos para ele */
+  
+  @media screen and (max-width: 600px) {
+    body {
+      background-color: lightcoral;
+      font-family: sans-serif;
+    }
+    .container {
+      flex-direction: column;
+    }
+  
+    p {
+      padding: 0 5px;
+      line-height: 1.5em;
+    }
+  
+    /* TODO */
+  }
+  
+  /* Aqui está o segundo breakpoint e os estilos definidos para ele */
+  
+  @media screen and (min-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  
+    .container {
+      flex-wrap: wrap;
+    }
+  
+    /* TODO */
+  }
+  
+  /* Aqui está o terceiro breakpoint e os estilos definidos para ele */
+  
+  @media screen and (min-width: 1000px) {
+    body {
+      background-color: lightgreen;
+    }
+  
+    .container {
+      flex-wrap: nowrap;
+    }
+  
+    /* TODO */
+  }
