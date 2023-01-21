@@ -24,3 +24,15 @@
 - 18 `Get` - Envia os dados para URL
 - 19 `Post` - Envia os dados por baixo do pano
 - 20 `.preventDefault()` - Previne a ação de alguma coisa
+- 21 `display: flex` - Cria um Flex Container
+- 22 `flex-direction` - define a direção dos flex items e modifica quem é o Main Axis.
+- 23 `flex-wrap` - define se os itens devem quebrar ou não a linha,
+- 24 `flex-flow` - é um atalho para as propriedades flex-direction e flex-wrap.
+- 25 `justify-content` - alinha os flex items no container de acordo com a direção.
+- 26 `align-items` -  alinha os flex items de acordo com o eixo transversal (cross-axis). 
+- 27 `align-content` - alinha as linhas do container em relação ao eixo transversal (cross-axis)
+- 28 `align-self` -  utiliza os valores de alinhamento somente para um item.
+- 29 `order` -  nos permite ordenar itens de um determinado container.
+- 31 `flex-grow` - Aumenta os Itens
+- 32 `flex-shrink` - Diminui os Itens
+- 33 `flex-basis` - Especifica o Tamanho inicial do item
