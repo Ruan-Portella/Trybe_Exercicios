@@ -10,4 +10,4 @@
 - `some` - retorna true se algum elemento satisfaz alguma condição, caso contrário retorna false;
 - `every` - retorna true se todos os elementos corresponderem a uma condição, caso contrário retorna false.
 - `sort` - Ordena o array
-- `map` - Cria um novo array
+- `map` - percorre um array e retoruna um novo array
