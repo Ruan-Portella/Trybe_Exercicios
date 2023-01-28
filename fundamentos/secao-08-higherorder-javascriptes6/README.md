@@ -11,3 +11,5 @@
 - `every` - retorna true se todos os elementos corresponderem a uma condição, caso contrário retorna false.
 - `sort` - Ordena o array
 - `map` - percorre um array e retoruna um novo array
+- `filter` - Filtra algum array
+- `reduce` - Acumula os retornos 
