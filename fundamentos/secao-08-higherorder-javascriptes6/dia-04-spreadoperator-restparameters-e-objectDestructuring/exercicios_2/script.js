@@ -1,18 +1,19 @@
-const INPUT_TEXT = document.querySelector("#input-text");
-const INPUT_CHECKBOX = document.querySelector("#input-checkbox");
-const HREF_LINK = document.querySelector("#href");
+// Imprima no console uma frase utilizando os dados do objeto criado anteriormente. Para isso, utilize a desestruturação de objetos em conjunto com template literals.
+// Exemplo: "Hi, my name is Maria, I'm 21 years old and I'm Brazilian. I work as a Software engineer and my squad is RLL-Rocket Landing Logic"
 
-HREF_LINK.addEventListener("click", (event)=>{
-    event.preventDefault();
-})
+const user = {
+    name: 'Maria',
+    age: 21,
+    nationality: 'Brazilian',
+  };
+  
+  const jobInfos = {
+    profession: 'Software engineer',
+    squad: 'Rocket Landing Logic',
+    squadInitials: 'RLL',
+  };
 
-INPUT_CHECKBOX.addEventListener("click", (event)=>{
-    event.preventDefault();
-})
+const { name: name, age: age, nationality: nationality} = user;
+const { profession: profession, squad: squad, squadInitials: squadInitials} = jobInfos;
 
-INPUT_TEXT.addEventListener("keypress", (event)=>{
-    const evento = event.key
-    if (evento != 'a'){
-    event.preventDefault();
-}
-})
+console.log(`Hi, my name is ${name}, I'm ${age} years old and I'm ${nationality}. I work as a ${profession} and my squad is ${squadInitials}-${squad}`);

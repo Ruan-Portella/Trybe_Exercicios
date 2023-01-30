@@ -13,3 +13,4 @@
 - `map` - percorre um array e retoruna um novo array
 - `filter` - Filtra algum array
 - `reduce` - Acumula os retornos 
+- `...` - Spread/Rest
