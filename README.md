@@ -64,6 +64,6 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/ruan-portella-734
 - :white_check_mark: 8.1 -  Introdução a Higher Order Functions
 - :white_check_mark: 8.2 - Higher Order Functions -  Sort e Map
 - :white_check_mark: 8.3 - Higher Order Functions - Filter e Reduce
-- :clock9: 8.4 - JavaScript ES6 -  Spread Operator, Rest Parameters e Object Destructuring
-- - :clock9: 8.5 - JavaScript ES6 - Array destructuring, Default destructuring, Object property shorthand e default parameters
-- - :clock9: 8.6 - Projeto - Zoo Functions
+- :white_check_mark: 8.4 - JavaScript ES6 -  Spread Operator, Rest Parameters e Object Destructuring
+- :white_check_mark: 8.5 - JavaScript ES6 - Array destructuring, Default destructuring, Object property shorthand e default parameters
+- :white_check_mark: 8.6 - Projeto - Zoo Functions
