@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./src/style.css">
+  <title>Validador de Campos</title>
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- Note os ids colocados -->
+    <h1>Validador de campos</h1>
+    <form>
+
+      <!-- Esse será nosso campo para inserirmos o texto a ser validado -->
+      <input type="text" placeholder="Insira aqui o valor" id="value">
+
+      <!--
+        Aqui, validaremos cinco tipos de objeto. Veja a
+        documentação da biblioteca Validator.js para ver outros
+        tipos de validações
+      -->
+      <select name="campo" id="option">
+        <option value="cpf">CPF</option>
+        <option value="email">email</option>
+      </select>
+
+      <!-- Vamos adicionar um botão para confirmarmos a validação -->
+      <button id="button">Validar</button>
+    </form>
+
+    <!-- Vamos também adicionar um parágrafo para retornarmos a validação -->
+    <p id="answer">Digite o valor, escolha a opção e clique em validar</p>
+  </div>
+
+  <!--
+    Importamos o nosso código por último. Lembre-se de colocá-lo
+    como type="module", para que ele possa fazer as devidas
+    importações
+  -->
+  <script type="module" src="./src/main.js"></script>
+</body>
+
+</html>

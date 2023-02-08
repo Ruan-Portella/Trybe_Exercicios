@@ -1,0 +1,21 @@
+{
+  "name": "validor-de-campos",
+  "version": "1.0.0",
+  "description": "Validador de Campos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite --open",
+    "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js",
+    "build": "vite build"
+  },
+  "author": "Ruan Portella Morales",
+  "license": "ISC",
+  "dependencies": {
+    "validator": "^13.9.0",
+    "vite": "^4.1.1"
+  },
+  "devDependencies": {
+    "@trybe/eslint-config-frontend": "^1.8.3"
+  }
+}
