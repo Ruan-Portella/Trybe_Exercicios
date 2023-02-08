@@ -4,7 +4,7 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/ruan-portella-734
 
 >"O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, metodologias ágeis e habilidades comportamentais."
 
-## Módulo: Fundamentos :clock1:
+## Módulo: Fundamentos :white_check_mark:
 
 #### Seção 01: [Unix e Bash](https://github.com/Ruan-Portella/Trybe_Exercicios/tree/main/fundamentos/secao-01-unix-e-bash)
 
@@ -67,3 +67,14 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/ruan-portella-734
 - :white_check_mark: 8.4 - JavaScript ES6 -  Spread Operator, Rest Parameters e Object Destructuring
 - :white_check_mark: 8.5 - JavaScript ES6 - Array destructuring, Default destructuring, Object property shorthand e default parameters
 - :white_check_mark: 8.6 - Projeto - Zoo Functions
+
+## Módulo: Front End :clock1:
+
+#### Seção 01: [Unix e Bash](https://github.com/Ruan-Portella/Trybe_Exercicios/tree/main/front-end-secao-01-introducao-ao-frontend-e-javascript-assincrono)
+
+- :white_check_mark: 1.1 - Ambiente de Desenvolvimento
+- :clock9: 1.2 - JavaScript Assíncrono - Promises e Fetch
+- :clock9: 1.3 - Prática - Casa de Câmbio
+- :clock9: 1.4 - Async, Await e teste assíncronos
+- :clock9: 1.5 - Projeto - Carrinho de compras
+
