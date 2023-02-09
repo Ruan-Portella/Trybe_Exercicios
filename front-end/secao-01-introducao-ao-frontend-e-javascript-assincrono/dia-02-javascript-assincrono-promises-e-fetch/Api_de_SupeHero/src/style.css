@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(31, 31, 31);
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3%;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+img {
+    border-radius: 35%;
+    width: 300px;
+}
+
+button {
+    border: 2px solid black;
+    padding: 10px 15px;
+    border-radius: 10%;
+    color: white;
+    background-color: green;
+}
+
+button:hover{
+    cursor: pointer;
+    transition: all 0.2s ease;
+    background-color: rgb(95, 139, 30);
+}

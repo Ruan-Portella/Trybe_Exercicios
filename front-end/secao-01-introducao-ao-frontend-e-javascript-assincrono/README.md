@@ -13,3 +13,15 @@
 - 7 `npx vite build` - Instala o diretório dist 
 - 8 `npm install -g surge` - Instala o surge
 - 9 `surge dist` - Realiza o deploy do diretório dist
+- 10 `promisse` - é um objeto usado para processamento assíncrono
+- 11 `new Promise(resolve, reject)` - lida com códigos assíncronnos
+- 12 `.then(response)` -  Pega o valor do parametro de promisse
+- 13 `.cath(error)` - Pega o valor e se for reject retorna um erro
+- 14 `.finally()` - Executa algo independente se for resolvida ou não
+- 15 `.fetch(url)` - retorna um promise
+- 16 `.json()` - transforma um resposta recebida da API em um objeto no formato JSON, que retorna um promise
+- 17 `JSON.stringify()` - transforma os dados em texto
+- 18 `promise.all([])` - Retorna o valor das promisses, se alguma for rejeitada, retorna ela
+- 19 `promise.race([]` - Retorna o valor da primeira promisse resolvida ou rejeitada
+- 20 `promise.any([])` - Retorna a primeira promisse resolvida e se todas forem rejeitada retorna um objeto delas
+- 21 `promise.allSettled` - Retorna um array de objetos com o valor de cada promisse

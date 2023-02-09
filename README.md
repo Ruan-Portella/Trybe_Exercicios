@@ -73,7 +73,7 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/ruan-portella-734
 #### Seção 01: [Unix e Bash](https://github.com/Ruan-Portella/Trybe_Exercicios/tree/main/front-end-secao-01-introducao-ao-frontend-e-javascript-assincrono)
 
 - :white_check_mark: 1.1 - Ambiente de Desenvolvimento
-- :clock9: 1.2 - JavaScript Assíncrono - Promises e Fetch
+- :white_check_mark: 1.2 - JavaScript Assíncrono - Promises e Fetch
 - :clock9: 1.3 - Prática - Casa de Câmbio
 - :clock9: 1.4 - Async, Await e teste assíncronos
 - :clock9: 1.5 - Projeto - Carrinho de compras
