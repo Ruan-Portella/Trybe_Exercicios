@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(26, 26, 26);
+    color: white;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#dog {
+    padding: 10px 10px;
+    background-color: rgb(220, 18, 18);
+    border: 2px solid black;
+}
+
+#cat {
+    padding: 10px 10px;
+    background-color: green;
+    border: 2px solid black;
+}
+
+#surprise {
+    padding: 10px 10px;
+    background-color: rgb(25, 25, 189);
+    border: 2px solid black;
+}
+
+#imagem {
+    margin: 20px;
+    width: 350px;
+    height: 350px;
+    margin-bottom: 40px;
+    border: 3px solid white;
+    border-bottom: 15px solid white;
+}
+
+#dog:hover {
+    background-color: rgb(255, 1, 1);
+    cursor: pointer;
+}
+
+#cat:hover {
+    background-color: rgb(6, 176, 6);
+    cursor: pointer;
+}
+
+#surprise:hover {
+    background-color: blue;
+    cursor: pointer;
+}
+
+
+
