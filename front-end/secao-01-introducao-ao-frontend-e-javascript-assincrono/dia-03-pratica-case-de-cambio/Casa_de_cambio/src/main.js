@@ -56,9 +56,10 @@ const makeTableCoin = (rates) => {
 
     const searchCoin = () => {
     const coin = coinInput.value;
-    console.log(coin);
-    return fetch(`https://api.exchangerate.host/latest?base=
-    ${coin}`).then((Response) => Response.json()).then((data) => makeTableCoin(data.rates));
-}
+    const URL_REQUEST = `https://api.exchangerate.host/latest?base=${coin}`;
+    return fetch(URL_REQUEST)
+      .then((response) => response.json())
+      .then((data) => makeTableCoin(data.rates));
+  };
 
 button.addEventListener('click', searchCoin);
