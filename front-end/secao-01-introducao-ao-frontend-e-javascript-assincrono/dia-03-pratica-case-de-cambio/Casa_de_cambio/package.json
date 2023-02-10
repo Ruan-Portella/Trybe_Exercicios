@@ -1,0 +1,19 @@
+{
+  "name": "casa_de_cambio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite --open"
+  },
+  "author": "Ruan Portella Morales",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "vite": "^4.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.33.0"
+  }
+}

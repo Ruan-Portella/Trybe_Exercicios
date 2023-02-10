@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Roboto:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: 'Fira Code';
+    background-color: #282c33;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(./assets/bg.svg);
+}
+
+header {
+    margin: 40px;
+    width: 80%;
+}
+
+button{
+    width: 171px;
+    height: 50px;
+    background: #96EB95;
+    border: 1px solid #96EB95;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 79px;
+    color: #FFFF;
+    margin-bottom: 30px;
+}
+
+strong{
+    color: #95EBA8;
+}
+
+label{
+    display: flex;
+}
+
+input{
+    width: 171px;
+    height: 48px;
+    background: rgba(217, 217, 217, 0.1);
+    border-radius: 10px;
+    padding-left: 20px;
+    font-size: 20px;
+    color: white;
+}
+#insert{
+    color: white;
+    margin-bottom: 10px;
+}
+
+#pesquisar{
+    font-weight: 700;
+    font-size: 20px; 
+    line-height: 20px;
+    color: #373737;
+}
+
+
+main{
+    background-color: rgba(217, 217, 217, 0.06);
+    height: 100vh;
+    width: 80%;
+    max-height: 60vh;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+main .container-coins{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 100%;
+    height: 80%;
+}
+
+main .container-coins::-webkit-scrollbar{
+    width: 15px;
+}
+
+main .container-coins::-webkit-scrollbar-thumb{
+    background: gray;
+}
+
+main .container-coins::-webkit-scrollbar-track{
+    box-shadow: inset 10px 10px 10px rgb(61, 61, 61)
+}
+
+h2 {
+    margin-top: 20px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+main .container-coins .coin {
+    display: inline-block;
+    width: 170px;
+    height: 45px;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: 10px 10px;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+}
+
+main .container-coins .coin img {
+    position: absolute;
+    left: 10px;
+    top: 30%;
+}
+
+main .container-coins .coin  span:nth-child(2){
+    position: absolute;
+    top: 25%;
+    left: 30px;
+    color: white;
+}
+
+main .container-coins .coin  span:nth-child(3){
+    position: absolute;
+    top: 25%;
+    right: 10px;
+    color: #FFE713
+}
+
+.swal2-popup {
+    background-color: #19191A !important;
+    color: white !important;
+}
+
+
