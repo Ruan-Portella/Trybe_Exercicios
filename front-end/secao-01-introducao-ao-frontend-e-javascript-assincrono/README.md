@@ -25,3 +25,5 @@
 - 19 `promise.race([]` - Retorna o valor da primeira promisse resolvida ou rejeitada
 - 20 `promise.any([])` - Retorna a primeira promisse resolvida e se todas forem rejeitada retorna um objeto delas
 - 21 `promise.allSettled` - Retorna um array de objetos com o valor de cada promisse
+- 22 `async` - Configura a função para ser assincrona
+- 23 `await` - Fala pra o javaScript esperar resolver a promisse
