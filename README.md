@@ -70,11 +70,17 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/ruan-portella-734
 
 ## Módulo: Front End :clock1:
 
-#### Seção 01: [Unix e Bash](https://github.com/Ruan-Portella/Trybe_Exercicios/tree/main/front-end-secao-01-introducao-ao-frontend-e-javascript-assincrono)
+#### Seção 01: [Introdução ao FrontEnd e JavaScript Assíncrono](https://github.com/Ruan-Portella/Trybe_Exercicios/tree/main/front-end-secao-01-introducao-ao-frontend-e-javascript-assincrono)
 
 - :white_check_mark: 1.1 - Ambiente de Desenvolvimento
 - :white_check_mark: 1.2 - JavaScript Assíncrono - Promises e Fetch
 - :white_check_mark: 1.3 - Prática - Casa de Câmbio
 - :white_check_mark: 1.4 - Async, Await e teste assíncronos
 - :white_check_mark: 1.5 - Projeto - Carrinho de compras
+
+#### Seção 02: [Introdução ao React](https://github.com/Ruan-Portella/Trybe_Exercicios/tree/main/front-end-secao-02-introducao-ao-react)
+
+- :white_check_mark: 2.1 - "Hello, World!" no React!
+- :clock9: 2.2 - Componentes React
+- :clock9: 2.3 - Projeto - Solar System
 
