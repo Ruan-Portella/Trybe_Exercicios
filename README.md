@@ -74,7 +74,7 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/ruan-portella-734
 
 - :white_check_mark: 1.1 - Ambiente de Desenvolvimento
 - :white_check_mark: 1.2 - JavaScript Assíncrono - Promises e Fetch
-- :clock9: 1.3 - Prática - Casa de Câmbio
-- :clock9: 1.4 - Async, Await e teste assíncronos
-- :clock9: 1.5 - Projeto - Carrinho de compras
+- :white_check_mark: 1.3 - Prática - Casa de Câmbio
+- :white_check_mark: 1.4 - Async, Await e teste assíncronos
+- :white_check_mark: 1.5 - Projeto - Carrinho de compras
 
