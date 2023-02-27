@@ -22,7 +22,6 @@ const createElements = () => {
 
 const verifyCoin = (array) => array.some((coin) => coin[0] === coinInput.value.toUpperCase());
 
-
 const errorCoin = () => {
     Swal.fire({
         icon: 'error',
@@ -32,8 +31,10 @@ const errorCoin = () => {
 }
 
 const makeTableCoin = (rates) => {
+    console.log(verifyCoin(Object.entries(rates)));
     const arrayRates = Object.entries(rates);
-    if (verifyCoin(arrayRates)) {
+    console.log(arrayRates);
+    if (verifyCoin(arrayRates)) {;
         const toFixed = 3;
         h2.innerHTML = `Valores referentes a 1 ${coinInput.value.toUpperCase()}`;
         cleanTable();
