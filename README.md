@@ -81,6 +81,12 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/ruan-portella-734
 #### Seção 02: [Introdução ao React](https://github.com/Ruan-Portella/Trybe_Exercicios/tree/main/front-end-secao-02-introducao-ao-react)
 
 - :white_check_mark: 2.1 - "Hello, World!" no React!
-- :clock9: 2.2 - Componentes React
-- :clock9: 2.3 - Projeto - Solar System
+- :white_check_mark: 2.2 - Componentes React
+- :white_check_mark: 2.3 - Projeto - Solar System
+
+#### Seção 03: [Componentes com Estado, Eventos e Fomulários com React](https://github.com/Ruan-Portella/Trybe_Exercicios/tree/main/front-end-secao-03-componentes-com-estado-eventos-e-formularios)
+
+- :white_check_mark: 3.1 - Componentes com estado e eventos
+- :clock9: 3.2 - Formulários no React
+- :clock9: 3.3 - Projeto - Tryunfo
 
