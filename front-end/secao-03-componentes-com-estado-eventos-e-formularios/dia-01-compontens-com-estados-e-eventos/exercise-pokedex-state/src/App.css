@@ -1,0 +1,29 @@
+body {
+  font-family: Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans,
+    Droid Sans, Helvetica Neue, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+.pokemon {
+  align-items: center;
+  border: 1px gray solid;
+  border-radius: 10px;
+  display: flex;
+  flex: 1 1 0;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 10px;
+  min-width: 240px;
+}
+
+.pokedex {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+}

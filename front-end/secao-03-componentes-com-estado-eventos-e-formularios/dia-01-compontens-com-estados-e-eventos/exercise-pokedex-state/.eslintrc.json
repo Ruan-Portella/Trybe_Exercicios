@@ -1,0 +1,23 @@
+{
+  "extends": "@trybe/eslint-config-frontend",
+  "overrides": [
+    {
+      "files": ["src/tests/**/*.js"],
+      "rules": {
+        "max-len": [
+          "error",
+          {
+            "code": 90,
+            "ignoreComments": true,
+            "ignoreUrls": true,
+            "ignoreRegExpLiterals": true,
+            "ignoreStrings": true
+          }
+        ],
+        "max-lines": ["off"],
+        "react-func/max-lines-per-function": ["off"],
+        "no-magic-numbers": ["off"]
+      }
+    }
+  ]
+}
