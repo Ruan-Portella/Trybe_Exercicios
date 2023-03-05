@@ -87,6 +87,6 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/ruan-portella-734
 #### Seção 03: [Componentes com Estado, Eventos e Fomulários com React](https://github.com/Ruan-Portella/Trybe_Exercicios/tree/main/front-end-secao-03-componentes-com-estado-eventos-e-formularios)
 
 - :white_check_mark: 3.1 - Componentes com estado e eventos
-- :white_check_mark:3.2 - Formulários no React
+- :white_check_mark: 3.2 - Formulários no React
 - :clock9: 3.3 - Projeto - Tryunfo
 
