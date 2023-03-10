@@ -94,5 +94,5 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/ruan-portella-734
 
 - :white_check_mark: 4.1 - Ciclo de Vida de Componentes
 - :white_check_mark: 4.2 - React Router
-- :clock9: 4.3 - Projeto - TrybeTunes
+- :white_check_mark: 4.3 - Projeto - TrybeTunes
 
