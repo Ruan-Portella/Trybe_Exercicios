@@ -93,6 +93,6 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/ruan-portella-734
 #### Seção 04: [Ciclo de Vida de Componentes e React Router](https://github.com/Ruan-Portella/Trybe_Exercicios/tree/main/front-end-secao-04-ciclo-de-vida-de-componentes-e-react-router)
 
 - :white_check_mark: 4.1 - Ciclo de Vida de Componentes
-- :clock9: 4.2 - React Router
-- :clock9: 4.3 - Projeto - TrybeTunes
+- :white_check_mark: 4.2 - React Router
+- :white_check_mark: 4.3 - Projeto - TrybeTunes
 
