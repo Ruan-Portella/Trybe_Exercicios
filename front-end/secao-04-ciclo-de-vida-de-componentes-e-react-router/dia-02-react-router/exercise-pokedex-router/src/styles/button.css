@@ -1,0 +1,7 @@
+.button-text {
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  font-weight: 598;
+  text-align: center;
+}

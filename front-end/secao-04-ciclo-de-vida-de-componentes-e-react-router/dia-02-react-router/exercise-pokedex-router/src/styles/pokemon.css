@@ -1,0 +1,20 @@
+.pokemon {
+  align-items: center;
+  border: 1px gray solid;
+  border-radius: 10px;
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: space-around;
+  margin: 10px;
+  min-width: 25%;
+}
+
+.pokemon-overview {
+  margin: 10px;
+}
+
+.favorite-icon {
+  align-self: start;
+  margin: 10px;
+  width: 20px;
+}
