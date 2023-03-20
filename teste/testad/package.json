@@ -1,0 +1,50 @@
+{
+  "name": "sd-0x-project-frontend-online-store",
+  "version": "1.0.2",
+  "private": true,
+  "engines": {
+    "node": "16 || 18"
+  },
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^5.3.4",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint:styles": "npx stylelint '**/*.css'",
+    "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js,.jsx"
+  },
+  "jest": {
+    "testMatch": [
+      "**/__tests__/**/*.test.js"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@trybe/eslint-config-frontend": "^1.7.1",
+    "prop-types": "^15.8.1",
+    "stylelint": "^14.16.1",
+    "stylelint-config-standard": "^28.0.0",
+    "stylelint-order": "^5.0.0"
+  }
+}
