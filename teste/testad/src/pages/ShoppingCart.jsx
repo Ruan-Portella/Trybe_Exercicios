@@ -1,5 +1,6 @@
 import React from 'react';
-import { getSavedCart, removeCartID, SaveCart } from '../services/SaveCartApi';
+import { getSavedCart, removeCartID,
+  removeCartIDButton, SaveCart } from '../services/SaveCartApi';
 
 class ShoppingCart extends React.Component {
   constructor() {
@@ -16,7 +17,15 @@ class ShoppingCart extends React.Component {
   }
 
   RemoveCart = (product) => {
-    removeCartID(product);
+    if (product.QuantityCart === 1) {
+      return;
+    }
+    removeCartID(product.ProductCart);
+    this.componentDidMount();
+  };
+
+  RemoveCartButtom = (product) => {
+    removeCartIDButton(product.ProductCart.id);
     this.componentDidMount();
   };
 
@@ -46,9 +55,9 @@ class ShoppingCart extends React.Component {
                     <p>{ product.ProductCart.price }</p>
                     <button
                       data-testid="product-decrease-quantity"
-                      onClick={ () => this.RemoveCart(product.ProductCart.id) }
+                      onClick={ () => this.RemoveCart(product) }
                     >
-                      Remover
+                      -
                     </button>
                     <p data-testid="shopping-cart-product-quantity">
                       { product.QuantityCart }
@@ -58,7 +67,14 @@ class ShoppingCart extends React.Component {
                       id={ product.ProductCart.id }
                       onClick={ () => this.SaveCarts(product.ProductCart) }
                     >
-                      Adicionar
+                      +
+                    </button>
+                    <button
+                      onClick={ () => this.RemoveCartButtom(product) }
+                      data-testid="remove-product"
+                    >
+                      Remover
+
                     </button>
                   </li>
                 )))

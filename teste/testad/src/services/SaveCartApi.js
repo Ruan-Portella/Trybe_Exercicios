@@ -31,11 +31,18 @@ export const SaveCart = (product) => {
   QuantityCart();
 };
 
-export const removeCartID = (id) => {
+export const removeCartID = (products) => {
+  const car = JSON.parse(localStorage.getItem('cartProducts'));
+  const filter = car.map(({ id }) => id);
+  const removedItem = filter.lastIndexOf(products.id);
+  const newArrCarr = car.filter((_arr, index) => index !== removedItem);
+  localStorage.setItem('cartProducts', JSON.stringify(newArrCarr));
+  QuantityCart();
+};
+
+export const removeCartIDButton = (id) => {
   const cartProducts = [...getSavedCartIDs()];
-  const novo = cartProducts.find((product) => product.id === id);
-  const indexProduct = cartProducts.indexOf(novo);
-  cartProducts.splice(indexProduct, 1);
-  localStorage.setItem('cartProducts', JSON.stringify(cartProducts));
+  const novo = cartProducts.filter((product) => product.id !== id);
+  localStorage.setItem('cartProducts', JSON.stringify(novo));
   QuantityCart();
 };
