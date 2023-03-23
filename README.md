@@ -96,3 +96,7 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/ruan-portella-734
 - :white_check_mark: 4.2 - React Router
 - :white_check_mark: 4.3 - Projeto - TrybeTunes
 
+#### Seção 05: [Metodologias Ágeis]
+
+- :white_check_mark: 5.1 - Metodologias Ágeis
+- :white_check_mark: 5.2 - Projeto - Front-End Online Store
