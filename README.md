@@ -100,3 +100,10 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/ruan-portella-734
 
 - :white_check_mark: 5.1 - Metodologias Ágeis
 - :white_check_mark: 5.2 - Projeto - Front-End Online Store
+
+#### Seção 06: [Testes Automatizados com React Testing Library](https://github.com/Ruan-Portella/Trybe_Exercicios/tree/main/front-end-secao-06-testes-automatizados-com-react-testing-library)
+
+- :white_check_mark: 6.1 - RTL - Primeiros Passos
+- :clock9: 6.2 - RTL - Mocks e Inputs
+- :clock9: 6.3 - RTL - Testando React Router
+- :clock9: 6.4 - Projeto -  Testes em React
