@@ -37,6 +37,7 @@ class InputTodo extends Component {
         </label>
         <button
           type="button"
+          disabled={ textTodo === '' }
           onClick={ () => this.addItem(textTodo) }
         >
           Adicionar
