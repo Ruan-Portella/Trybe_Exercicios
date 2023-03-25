@@ -4,5 +4,16 @@
 
 ## Comandos Aprendidos
 
-- 1 `` -
+- 1 `render(Component)` - renderiza o componente para ser testado.
+- 2 `screen` - acessa a tela do componente renderizado.
+- 3 `getBy` - Procura por apenas um elemento.
+- 4 `findBy` - Procura por apenas um elemento, podendo ser assíncrono.
+- 5 `queryBy` - Procura por apenas um elemento.
+- 6 `getAllBy` - Procura por um ou mais elementos, retornando um array.
+- 7 `findAllBy` - Procura por um ou mais elementos, podendo ser assíncrono e retornando um array.
+- 8 `queryAllBy` - procura por um ou mais elementos, retornando um array.
+- 4 `toBeInTheDocument` - Verifica se o elemento está no documento.
+- 5 `toHaveTextContent` - Verifica o texto do elemento.
+- 6 `UserEvent` - Evento de Interação do usuário.
+- 
 
