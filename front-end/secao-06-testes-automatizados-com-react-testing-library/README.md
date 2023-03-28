@@ -21,4 +21,8 @@
 - 10 `mockReturnValue` - Declara um valor padrão para a função simulada.
 - 11 `mockReturnValueOnce` - Declara um valor apenas uma vez para a função simulada, inicia primeiro que o mockReturnValue.   
 - 12 `mockImplementation(func)` - Aceita uma função que deve ser usada como implementação.
+- 13 `mock.mockClear()` - Limpa os dados de uso de uma simulação.
+- 14 `mock.mockReset()` - Chama o mockClear internamente e remove qualquer retorno estipulado ou implementação.
+- 15 `mock.mockRestore()` - Chama o mockReset e restaura a implementação original.
+- 16 `mockResolvedValue` - Declara um valor padrão para o retorno que o fetch teria.
 
