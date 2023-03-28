@@ -15,4 +15,14 @@
 - 4 `toBeInTheDocument` - Verifica se o elemento está no documento.
 - 5 `toHaveTextContent` - Verifica o texto do elemento.
 - 6 `UserEvent` - Evento de Interação do usuário.
+- 7 `jest.fn()` - Transforma uma função em uma simulação.
+- 8 `jest.mock()` - Transforma varias funções em uma simulação.
+- 9 `jest.spyOn()` - 'Espia' a chamada da função simulada, deixando a implementação original ativa.
+- 10 `mockReturnValue` - Declara um valor padrão para a função simulada.
+- 11 `mockReturnValueOnce` - Declara um valor apenas uma vez para a função simulada, inicia primeiro que o mockReturnValue.   
+- 12 `mockImplementation(func)` - Aceita uma função que deve ser usada como implementação.
+- 13 `mock.mockClear()` - Limpa os dados de uso de uma simulação.
+- 14 `mock.mockReset()` - Chama o mockClear internamente e remove qualquer retorno estipulado ou implementação.
+- 15 `mock.mockRestore()` - Chama o mockReset e restaura a implementação original.
+- 16 `mockResolvedValue` - Declara um valor padrão para o retorno que o fetch teria.
 
