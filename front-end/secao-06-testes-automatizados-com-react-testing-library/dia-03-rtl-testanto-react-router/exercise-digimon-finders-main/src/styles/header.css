@@ -1,0 +1,17 @@
+header {
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.digimonImage {
+  width: 150px;
+}
