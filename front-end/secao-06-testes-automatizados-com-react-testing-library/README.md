@@ -25,4 +25,3 @@
 - 14 `mock.mockReset()` - Chama o mockClear internamente e remove qualquer retorno estipulado ou implementação.
 - 15 `mock.mockRestore()` - Chama o mockReset e restaura a implementação original.
 - 16 `mockResolvedValue` - Declara um valor padrão para o retorno que o fetch teria.
-
