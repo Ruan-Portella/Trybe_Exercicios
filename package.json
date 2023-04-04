@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "@redux-devtools/extension": "^3.2.5",
-    "redux": "^4.2.1"
-  }
-}
