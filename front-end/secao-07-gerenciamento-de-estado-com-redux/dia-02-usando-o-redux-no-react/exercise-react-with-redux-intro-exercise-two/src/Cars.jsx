@@ -4,10 +4,11 @@ import { connect } from 'react-redux';
 import blueCarImg from './images/carBlue.jpeg';
 import redCarImg from './images/carRed.jpeg';
 import yellowCarImg from './images/carYellow.jpeg';
+import {moveCarAction} from './redux/actions/index.js'
 
 class Cars extends React.Component {
   render() {
-    const { redCar, blueCar, yellowCar } = this.props;
+    const { redCar, blueCar, yellowCar, dispatch } = this.props;
     return (
       <main>
         <section>
@@ -17,7 +18,7 @@ class Cars extends React.Component {
             alt="red car"
           />
           <button
-            // onClick={  }
+            onClick={ () => dispatch(moveCarAction('red', !redCar)) }
             type="button"
           >
             move
@@ -30,7 +31,7 @@ class Cars extends React.Component {
             alt="blue car"
           />
           <button
-            // onClick={  }
+            onClick={ () => dispatch(moveCarAction('blue', !blueCar)) }
             type="button"
           >
             move
@@ -43,7 +44,7 @@ class Cars extends React.Component {
             alt="yellow car"
           />
           <button
-            // onClick={  }
+            onClick={ () => dispatch(moveCarAction('yellow', !yellowCar)) }
             type="button"
           >
             move
@@ -54,10 +55,10 @@ class Cars extends React.Component {
   }
 }
 
-const mapStateToProps = () => ({
-  // redCar:
-  // blueCar:
-  // yellowCar:
+const mapStateToProps = (state) => ({
+  redCar: state.cars.red,
+  blueCar: state.cars.blue,
+  yellowCar: state.cars.yellow
 });
 
 Cars.propTypes = {
