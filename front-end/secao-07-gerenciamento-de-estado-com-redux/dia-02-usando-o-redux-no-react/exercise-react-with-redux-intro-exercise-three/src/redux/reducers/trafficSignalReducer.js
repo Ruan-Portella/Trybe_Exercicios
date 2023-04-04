@@ -4,7 +4,7 @@ const INITIAL_STATE = {
   color: 'red',
 };
 
-function carsReducer(state = INITIAL_STATE, action) {
+function trafficSignalReducer(state = INITIAL_STATE, action) {
   switch (action.type) {
   case CHANGE_SIGNAL:
     return {
@@ -16,4 +16,4 @@ function carsReducer(state = INITIAL_STATE, action) {
   }
 }
 
-export default carsReducer;
+export default trafficSignalReducer;

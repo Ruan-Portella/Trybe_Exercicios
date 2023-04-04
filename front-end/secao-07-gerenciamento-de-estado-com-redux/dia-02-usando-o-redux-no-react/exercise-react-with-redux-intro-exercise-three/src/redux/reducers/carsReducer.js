@@ -8,7 +8,7 @@ const INITIAL_STATE = {
   },
 };
 
-function trafficSignalReducer(state = INITIAL_STATE, action) {
+function carsReducer(state = INITIAL_STATE, action) {
   switch (action.type) {
   case MOVE_CAR:
     return {
@@ -20,4 +20,4 @@ function trafficSignalReducer(state = INITIAL_STATE, action) {
   }
 }
 
-export default trafficSignalReducer;
+export default carsReducer;

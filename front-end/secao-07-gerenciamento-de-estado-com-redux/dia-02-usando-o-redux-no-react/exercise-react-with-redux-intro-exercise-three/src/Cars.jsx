@@ -4,9 +4,10 @@ import { connect } from 'react-redux';
 import carBlue from './images/carBlue.jpeg';
 import carRed from './images/carRed.jpeg';
 import carYellow from './images/carYellow.jpeg';
+import {moveCar} from './redux/actions'
 
 function Cars({
-  redCar, blueCar, yellowCar, moveCar,
+  redCar, blueCar, yellowCar, dispatch,
 }) {
   return (
     <div>
@@ -17,7 +18,7 @@ function Cars({
           alt="red car"
         />
         <button
-          onClick={() => moveCar('red', !redCar)}
+          onClick={() => dispatch(moveCar('red', !redCar))}
           type="button"
         >
           move
@@ -30,7 +31,7 @@ function Cars({
           alt="blue car"
         />
         <button
-          onClick={() => moveCar('blue', !blueCar)}
+          onClick={() => dispatch(moveCar('blue', !blueCar))}
           type="button"
         >
           move
@@ -43,7 +44,7 @@ function Cars({
           alt="yellow car"
         />
         <button
-          onClick={() => moveCar('yellow', !yellowCar)}
+          onClick={() => dispatch(moveCar('yellow', !yellowCar))}
           type="button"
         >
           move
@@ -53,8 +54,10 @@ function Cars({
   );
 }
 
-const mapStateToProps = () => ({
-  /* Coloque seu código aqui... */
+const mapStateToProps = (state) => ({
+  redCar: state.cars.cars.red,
+  blueCar: state.cars.cars.blue,
+  yellowCar: state.cars.cars.yellow,
 });
 
 Cars.propTypes = {

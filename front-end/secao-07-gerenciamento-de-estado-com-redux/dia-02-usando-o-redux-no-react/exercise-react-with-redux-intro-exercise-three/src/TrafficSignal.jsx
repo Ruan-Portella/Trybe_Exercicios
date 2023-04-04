@@ -4,6 +4,7 @@ import { connect } from 'react-redux';
 import redSignal from './images/redSignal.jpeg';
 import greenSignal from './images/greenSignal.jpeg';
 import yellowSignal from './images/yellowSignal.jpeg';
+import { changeSignal } from './redux/actions';
 
 const renderSignal = (signalColor) => {
   switch (signalColor) {
@@ -18,21 +19,21 @@ const renderSignal = (signalColor) => {
   }
 };
 
-function TrafficSignal({ signalColor }) {
+function TrafficSignal({ signalColor, dispatch }) {
   return (
     <div>
       <div className="button-container">
-        <button type="button">Red</button>
-        <button type="button">Yellow</button>
-        <button type="button">Green</button>
+        <button onClick={ () => dispatch(changeSignal('red')) } type="button">Red</button>
+        <button onClick={ () => dispatch(changeSignal('yellow')) } type="button">Yellow</button>
+        <button onClick={ () => dispatch(changeSignal('green')) } type="button">Green</button>
       </div>
       <img className="signal" src={renderSignal(signalColor)} alt="" />
     </div>
   );
 }
 
-const mapStateToProps = () => ({
-  /* Coloque seu código aqui... */
+const mapStateToProps = (state) => ({
+  signalColor: state.traffic.color
 });
 
 TrafficSignal.propTypes = {
