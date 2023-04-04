@@ -111,7 +111,7 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/ruan-portella-734
 #### Seção 07: [Gerenciamento de estado com Redux](https://github.com/Ruan-Portella/Trybe_Exercicios/tree/main/front-end-secao-07-gerenciamento-de-estado-com-redux)
 
 - :white_check_mark: 7.1 - Introdução ao Redux - O estado global da aplicação
-- :clock9: 7.2 - Usando o Redux no React
+- :white_check_mark: 7.2 - Usando o Redux no React
 - :clock9: 7.3 - Usando o Redux no React - Prática
 - :clock9: 7.4 - Usando o Redux no React - Actions Assíncronas
 - :clock9: 7.5 - Testes em React-Redux
