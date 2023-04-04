@@ -14,3 +14,6 @@
 - 8 `npm install redux` - Instala o Redux.
 - 9 `npm install @redux-devtools/extension` - Instala a Extensão Redux DevTools
 - 10 `composeWithDevTools` - Importação necessária para utilizar a extensão DevTools
+- 11 `npm install react-redux` - Instala a biblioteca Redux com conexão ao React.
+- 12 `Provider` - Proverá as informações da store para a aplicação React.
+- 13 `connect` - Conecta o componente com o estado global.
