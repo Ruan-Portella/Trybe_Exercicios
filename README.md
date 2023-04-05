@@ -112,7 +112,7 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/ruan-portella-734
 
 - :white_check_mark: 7.1 - Introdução ao Redux - O estado global da aplicação
 - :white_check_mark: 7.2 - Usando o Redux no React
-- :clock9: 7.3 - Usando o Redux no React - Prática
+- :white_check_mark: 7.3 - Usando o Redux no React - Prática
 - :clock9: 7.4 - Usando o Redux no React - Actions Assíncronas
 - :clock9: 7.5 - Testes em React-Redux
 - :clock9: 7.6 - Projeto - Trybe Wallet
