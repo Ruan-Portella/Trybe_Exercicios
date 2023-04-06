@@ -17,3 +17,6 @@
 - 11 `npm install react-redux` - Instala a biblioteca Redux com conexão ao React.
 - 12 `Provider` - Proverá as informações da store para a aplicação React.
 - 13 `connect` - Conecta o componente com o estado global.
+- 14 `redux-thunk` - é uma middleware que captura todas as actions.
+- 15 `npm install redux-thunk` - Instala o redux-thunk.
+- 16 `thunk` - É uma função que encapsula uma operação.
