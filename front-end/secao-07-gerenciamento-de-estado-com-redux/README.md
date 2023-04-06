@@ -20,4 +20,3 @@
 - 14 `redux-thunk` - é uma middleware que captura todas as actions.
 - 15 `npm install redux-thunk` - Instala o redux-thunk.
 - 16 `thunk` - É uma função que encapsula uma operação.
-- 17 ``
