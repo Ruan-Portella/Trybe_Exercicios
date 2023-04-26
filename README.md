@@ -113,6 +113,13 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/ruan-portella-734
 - :white_check_mark: 7.1 - Introdução ao Redux - O estado global da aplicação
 - :white_check_mark: 7.2 - Usando o Redux no React
 - :white_check_mark: 7.3 - Usando o Redux no React - Prática
-- :clock9: 7.4 - Usando o Redux no React - Actions Assíncronas
-- :clock9: 7.5 - Testes em React-Redux
-- :clock9: 7.6 - Projeto - Trybe Wallet
+- :white_check_mark: 7.4 - Usando o Redux no React - Actions Assíncronas
+- :white_check_mark: 7.5 - Testes em React-Redux
+- :white_check_mark: 7.6 - Projeto - Trybe Wallet
+
+#### Seção 08: [Context API e React Hooks](https://github.com/Ruan-Portella/Trybe_Exercicios/tree/main/front-end-secao-08-context-api-e-react-hooks)
+
+- :white_check_mark: 8.1 - React Hooks - useState e useEffect
+- :clock9: 8.2 - Context API
+- :clock9 8.3 - Custom Hooks
+- :clock9 8.4 - Projeto - StarWars Datatable com Context API e hooks

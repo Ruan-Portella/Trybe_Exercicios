@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  bottom: 0;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+header {
+  background-color: #2fc18c;
+  padding: 3em;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+}
+
+img {
+  width: 1em;
+}
+
+.controls-container {
+  padding: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center ;
+}
+
+.controls-container button {
+  margin-right: 4em;
+}
+
+button {
+  background-color: #075bbb;
+  color: white; 
+  border: none;
+  padding: 1em;
+  border-radius: 0.5em;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #094493;
+}
+
+button:last-child {
+  margin-right: 0;
+}
+
+.messages-list {
+  padding: 1em;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px #CCC;
+  margin: 0 auto;
+}
+
+.messages-list li {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+    transition: box-shadow .3s;
+}
+
+.messages-list li:hover {
+  box-shadow: 0px 0px 3px 0px #2fc18c;
+
+}
+
+.messages-list button {
+  margin-right: 2em;
+}
+
+.message-title {
+  margin: 0px;
+  flex: 1;
+}
+
+.message-read {
+  color: #777;
+}
+
+.message-unread {
+  font-weight: bold;
+}

@@ -42,8 +42,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "@trybe/eslint-config-frontend": "^1.8.3"
   }
 }
