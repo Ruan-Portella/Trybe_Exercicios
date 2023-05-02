@@ -121,5 +121,5 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/ruan-portella-734
 
 - :white_check_mark: 8.1 - React Hooks - useState e useEffect
 - :white_check_mark: 8.2 - Context API
-- :clock9 8.3 - Custom Hooks
-- :clock9 8.4 - Projeto - StarWars Datatable com Context API e hooks
+- :white_check_mark: 8.3 - Custom Hooks
+- :white_check_mark: 8.4 - Projeto - StarWars Datatable com Context API e hooks
