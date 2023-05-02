@@ -38,7 +38,7 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/ruan-portella-734
 
 - :white_check_mark: 5.1 - JavaScript - DOM e Seletores
 - :white_check_mark: 5.2 - JavaScript - Trabalhando com elementos
-- :white_check_mark: 5.3 - JavaScrixt - Eventos
+- :white_check_mark: 5.3 - JavaScript - Eventos
 - :white_check_mark: 5.4 - JavaScript - Web Storage
 - :white_check_mark: 5.5 - Projetos - Arte com Pixels
 - :white_check_mark: 5.6 - Projetos - Projetos Bônus
@@ -120,6 +120,6 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/ruan-portella-734
 #### Seção 08: [Context API e React Hooks](https://github.com/Ruan-Portella/Trybe_Exercicios/tree/main/front-end-secao-08-context-api-e-react-hooks)
 
 - :white_check_mark: 8.1 - React Hooks - useState e useEffect
-- :clock9: 8.2 - Context API
+- :white_check_mark: 8.2 - Context API
 - :clock9 8.3 - Custom Hooks
 - :clock9 8.4 - Projeto - StarWars Datatable com Context API e hooks
