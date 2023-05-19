@@ -68,7 +68,7 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/ruan-portella-734
 - :white_check_mark: 8.5 - JavaScript ES6 - Array destructuring, Default destructuring, Object property shorthand e default parameters
 - :white_check_mark: 8.6 - Projeto - Zoo Functions
 
-## Módulo: Front End :clock1:
+## Módulo: Front End :white_check_mark:
 
 #### Seção 01: [Introdução ao FrontEnd e JavaScript Assíncrono](https://github.com/Ruan-Portella/Trybe_Exercicios/tree/main/front-end-secao-01-introducao-ao-frontend-e-javascript-assincrono)
 
@@ -123,3 +123,12 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/ruan-portella-734
 - :white_check_mark: 8.2 - Context API
 - :white_check_mark: 8.3 - Custom Hooks
 - :white_check_mark: 8.4 - Projeto - StarWars Datatable com Context API e hooks
+- :white_check_mark: 8.5 - Projeto - App de Receitas
+
+## Módulo: Back End :clock1:
+#### Seção 01: [Docker: Utilizando Containers](https://github.com/Ruan-Portella/Trybe_Exercicios/tree/main/back-end-secao-01-docker-utilizando-containers)
+
+- :white_check_mark: 1.1 - Utilizando Containers: Docker
+- :clock1: 1.2 - Manipulando Imagens no Docker
+- :clock1: 1.3 - Orquestrando Containers com Docker Compose
+- :clock1: 1.4 - Projeto - Docker Todo-List
