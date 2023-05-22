@@ -129,6 +129,6 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/ruan-portella-734
 #### Seção 01: [Docker: Utilizando Containers](https://github.com/Ruan-Portella/Trybe_Exercicios/tree/main/back-end-secao-01-docker-utilizando-containers)
 
 - :white_check_mark: 1.1 - Utilizando Containers: Docker
-- :clock1: 1.2 - Manipulando Imagens no Docker
+- :white_check_mark: 1.2 - Manipulando Imagens no Docker
 - :clock1: 1.3 - Orquestrando Containers com Docker Compose
 - :clock1: 1.4 - Projeto - Docker Todo-List
