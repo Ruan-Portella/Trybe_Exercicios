@@ -24,3 +24,14 @@
 - 17 `docker start <id>` - Inicia o containers novamente;
 - 18 `docker attach <id>` - Entra no container;
 - 19 `exit` - Encerra o terminal;
+- 20 `docker pull <nome-da-imagem>` - Pega a imagem deixando no computador;
+- 21 `docker system prune -af` - Remove todos os containers e imagens Docker do computador;
+- 22 `docker build -t <nome-da-imagem>` - Cria a imagem Docker;
+- 23 `docker rmi <nome-da-image>` - Remove a Imagem;
+- 24 `config.toml` - Configuração para o Hugo;
+- 25 `index.html` - Template que o Hugo utilizará para gerar páginas;
+- 26 `_index.md` - Será o arquivo de conteúdo de fato;
+- 27 `FROM` - pega a imagem de referência;
+- 28 `RUN` - Indica que o comando deve ser executado durante a execução da imagem Docker;
+- 29 `ENTRYPOINT` - Indica qual é o comando que deve ser executado ao iniciar esta imagem Docker;
+- 30 `CMD` - Indica qual é o comando que pode ser executado ao iniciar esta imagem Docker;
