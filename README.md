@@ -130,5 +130,5 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/ruan-portella-734
 
 - :white_check_mark: 1.1 - Utilizando Containers: Docker
 - :white_check_mark: 1.2 - Manipulando Imagens no Docker
-- :clock1: 1.3 - Orquestrando Containers com Docker Compose
+- :white_check_mark: 1.3 - Orquestrando Containers com Docker Compose
 - :clock1: 1.4 - Projeto - Docker Todo-List
