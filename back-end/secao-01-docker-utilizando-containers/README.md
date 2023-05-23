@@ -35,3 +35,6 @@
 - 28 `RUN` - Indica que o comando deve ser executado durante a execução da imagem Docker;
 - 29 `ENTRYPOINT` - Indica qual é o comando que deve ser executado ao iniciar esta imagem Docker;
 - 30 `CMD` - Indica qual é o comando que pode ser executado ao iniciar esta imagem Docker;
+- 31 `docker-compose up` - sobe todos os serviços;
+- 32 `docker-compose up -d --build` - Deixa nítido que as imagens precisam ser construídas novamente usando o compose;
+- 33 `docker-compose down` - Desce todos os serviços;
