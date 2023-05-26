@@ -137,7 +137,7 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/ruan-portella-734
 #### Seção 01: [Introdução à SQL](https://github.com/Ruan-Portella/Trybe_Exercicios/tree/main/back-end-secao-02-introducao-a-sql)
 
 - :white_check_mark: 2.1 - Banco de Dados SQL
-- :clock1: 2.2 - Encontrando dados em um Banco de Dados
+- :white_check_mark: 2.2 - Encontrando dados em um Banco de Dados
 - :clock1: 2.3 - Filtrando dados de forma especifica
 - :clock1: 2.4 - Manipulando tabelas
 - :clock1: 2.5 - Projeto - All for One
