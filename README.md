@@ -138,6 +138,6 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/ruan-portella-734
 
 - :white_check_mark: 2.1 - Banco de Dados SQL
 - :white_check_mark: 2.2 - Encontrando dados em um Banco de Dados
-- :clock1: 2.3 - Filtrando dados de forma especifica
+- :white_check_mark: 2.3 - Filtrando dados de forma especifica
 - :clock1: 2.4 - Manipulando tabelas
 - :clock1: 2.5 - Projeto - All for One
