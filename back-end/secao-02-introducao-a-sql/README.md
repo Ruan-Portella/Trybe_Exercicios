@@ -42,3 +42,7 @@
 - 36 `LIMIT` - Função que limita a quantidade de dados na tabela;
 - 37 `OFFSET` - Função que pula as linhas;
 - 38 `ORDER BY` - Função que ordena a coluna por DESC ou ASC;
+- 39 `WHERE` - (onde) funciona como comparação;
+- 40 `LIKE` - é utilizado para buscar por meio de uma sequência específica de caracteres;
+- 41 `IN` - é utilizado para fazer operações de OR em apenas uma linha;
+- 42 `BETWEEN` - Pega todos os valores que estão dentro do parâmetro inicial e final;
