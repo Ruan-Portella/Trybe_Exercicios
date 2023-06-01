@@ -1,4 +1,4 @@
-# Seção 01: Introdução à SQL
+# Seção 02: Introdução à SQL
 
 >Essa seção pertence ao módulo [Fundamentos](https://github.com/Ruan-Portella/Trybe_Exercicios/tree/main/back-end) do curso da [Trybe](https://www.betrybe.com/). Nessa seção aprendi sobre SQL.
 
@@ -46,3 +46,7 @@
 - 40 `LIKE` - é utilizado para buscar por meio de uma sequência específica de caracteres;
 - 41 `IN` - é utilizado para fazer operações de OR em apenas uma linha;
 - 42 `BETWEEN` - Pega todos os valores que estão dentro do parâmetro inicial e final;
+- 43 `INSERT INTO -- VALUES --` - insira valores nas colunas da tabela;
+- 44 `INSERT INTO -- SELECT -- FROM --` - Inseri valores de outra coluna na coluna escolhida;
+- 45 `UPDATE -- SET -- WHERE` - Atualiza algum valor da coluna na tabela;
+- 46 `DELETE -- FROM -- WHERE` - Deleta algum valor da coluna na tabela;
