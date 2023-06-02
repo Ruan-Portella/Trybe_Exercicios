@@ -30,3 +30,6 @@
 - 24 `COUNT` - Conta tudo;
 - 25 `GROUP BY` - Agrupa os dados em uma coluna;
 - 26 `HAVING` - Filtra os resultados agrupados;
+- 27 `INNER JOIN -- ON --` - Permite retornar todos os resultados em que a condição da cláusula ON for satisfeita;
+- 28 `LEFT JOIN` - Foca na tabela da esquerda;
+- 29 `RIGHT JOIN` - Foca na tabela da direita;
