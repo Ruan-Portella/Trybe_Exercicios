@@ -145,6 +145,6 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/ruan-portella-734
 #### Seção 01: [Funções SQL, JOINs e Normalização](https://github.com/Ruan-Portella/Trybe_Exercicios/tree/main/back-end-secao-03-funcao-sql-joins-e-normalizacao)
 
 - :white_check_mark: 3.1 - Funções mais usadas no SQL
-- :clock1: 3.2 - Descomplicando JOINs
+- :white_check_mark: 3.2 - Descomplicando JOINs
 - :clock1: 3.3 - Transformando ideias em um modelo de banco de dados
 - :clock1: 3.4 - Projeto - One for All
