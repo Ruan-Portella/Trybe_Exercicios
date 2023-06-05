@@ -30,6 +30,9 @@
 - 24 `COUNT` - Conta tudo;
 - 25 `GROUP BY` - Agrupa os dados em uma coluna;
 - 26 `HAVING` - Filtra os resultados agrupados;
-- 27 `INNER JOIN -- ON --` - Permite retornar todos os resultados em que a condição da cláusula ON for satisfeita;
-- 28 `LEFT JOIN` - Foca na tabela da esquerda;
-- 29 `RIGHT JOIN` - Foca na tabela da direita;
+- 27 `Primeira Forma` - coluna possui um nome único, usa o mesmo tipo de dado, ordem dos dados não afeta a integridade e devem possuir apenas um valor;
+- 28 `Segunda Forma` - Primeira forma e não possuir dependências parciais;
+- 29 `Terceira Forma` - Primeira e Segunda Forma e a tabela não deve conter colunas que não sejam dependentes exclusivamente da  PK;
+- 30 `INNER JOIN -- ON --` - Permite retornar todos os resultados em que a condição da cláusula ON for satisfeita;
+- 31 `LEFT JOIN` - Foca na tabela da esquerda;
+- 32 `RIGHT JOIN` - Foca na tabela da direita;
