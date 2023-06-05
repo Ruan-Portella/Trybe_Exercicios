@@ -30,3 +30,6 @@
 - 24 `COUNT` - Conta tudo;
 - 25 `GROUP BY` - Agrupa os dados em uma coluna;
 - 26 `HAVING` - Filtra os resultados agrupados;
+- 27 `Primeira Forma` - coluna possui um nome único, usa o mesmo tipo de dado, ordem dos dados não afeta a integridade e devem possuir apenas um valor;
+- 28 `Segunda Forma` - Primeira forma e não possuir dependências parciais;
+- 29 `Terceira Forma` - Primeira e Segunda Forma e a tabela não deve conter colunas que não sejam dependentes exclusivamente da  PK;
