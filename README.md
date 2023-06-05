@@ -148,4 +148,3 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/ruan-portella-734
 - :white_check_mark: 3.2 - Descomplicando JOINs
 - :white_check_mark: 3.3 - Transformando ideias em um modelo de banco de dados
 - :clock1: 3.4 - Projeto - One for All
-
