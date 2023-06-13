@@ -15,3 +15,17 @@
 - 9 `npm start` - Executa o script definido no package.json;
 - 10 `npm install` - Baixa e Instala pacotes Node.js;
 - 11 `fs` - Permite a leitura e escrita de arquivos;
+- 12 `express` - Framework Node.js;
+- 13 `app.listen` - Inicia o servidor passando dois parâmetros, porta e função;
+- 14 `nodemon` - Reinicia o servidor sempre que ocorrer uma atualização;
+- 15 `rotas` - Representam as portas de entrada para a sua API;
+- 16 `app.get` - Sempre que for pedir um dado, espera dois parâmetros, rota e função;
+- 17 `req` - Request, por meio dela que recebemos os dados;
+- 18 `res` - Response, por meio dela que respondemos o que nos é solicitado;
+- 19 `200` - Tudo ok;
+- 20 `500` - Erro no servidor;
+- 21 `404` - Pagina não encontrada;
+- 22 `req.query` - Por meio de Get, os dados são enviados por meio de valores pela URL;
+- 23 `req.params` - Por meio de post, os dados são enviados por meio de parâmetros na url;
+- 24 `req.body` - Por meio de post, os dados são enviados pelo corpo, mais seguro;
+- 
