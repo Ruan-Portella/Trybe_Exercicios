@@ -152,7 +152,7 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/ruan-portella-734
 #### Seção 04: [Introdução ao Desenvolvimento Web com Node.js](https://github.com/Ruan-Portella/Trybe_Exercicios/tree/main/back-end-secao-04-introducao-ao-desenvolvimento-web-com-node)
 
 - :white_check_mark: 4.1 - Runtime Assíncrono
-- :clock1: 4.2 - API REST com Express
+- :white_check_mark: 4.2 - API REST com Express
 - :clock1: 4.3 - Testes de Integração
 - :clock1: 4.4 - Express e Middlewares
 - :clock1: 4.5 - Express e MySQL
