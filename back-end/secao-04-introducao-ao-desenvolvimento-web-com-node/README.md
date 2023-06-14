@@ -28,4 +28,9 @@
 - 22 `req.query` - Por meio de Get, os dados são enviados por meio de valores pela URL;
 - 23 `req.params` - Por meio de post, os dados são enviados por meio de parâmetros na url;
 - 24 `req.body` - Por meio de post, os dados são enviados pelo corpo, mais seguro;
-- 
+- 25 `Testes unitários` - um escopo limitado a um pequeno fragmento do seu código com interação mínima entre recursos externos;
+- 26 `Testes de integração` - presumem a junção de múltiplos escopos;
+- 27 `Testes de Ponta-a-Ponta` - pressupõem um fluxo de interação completo com a aplicação;
+- 28 `chai` - é uma biblioteca de asserção que auxilia o desenvolvimento de testes com Node.js;
+- 29 `mocha` - é um framework de testes para JavaScript;
+- 30 `sinon` - é uma ferramenta que auxilia na criação e utilização dos dublês;
