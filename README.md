@@ -153,7 +153,7 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/ruan-portella-734
 
 - :white_check_mark: 4.1 - Runtime Assíncrono
 - :white_check_mark: 4.2 - API REST com Express
-- :clock1: 4.3 - Testes de Integração
+- :white_check_mark: 4.3 - Testes de Integração
 - :clock1: 4.4 - Express e Middlewares
 - :clock1: 4.5 - Express e MySQL
 - :clock1: 4.6 - Projeto - Talker Manager
