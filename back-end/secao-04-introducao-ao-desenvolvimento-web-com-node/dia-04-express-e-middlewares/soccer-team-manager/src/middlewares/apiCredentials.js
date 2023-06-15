@@ -8,7 +8,7 @@ async function apiCredentials(req, res, next) {
   if (token in authorized) {
     next();
   } else {
-    res.sendStatus(401);
+    res.sendStatus(401).json({message: 'Token inválido ou expirado.'});
   }
 };
 
