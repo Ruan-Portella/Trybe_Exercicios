@@ -1,0 +1,22 @@
+{
+  "name": "soccer-team-manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-trybe-backend": "^1.0.1",
+    "express": "^4.18.2"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
