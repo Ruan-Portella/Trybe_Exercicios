@@ -34,3 +34,4 @@
 - 28 `chai` - é uma biblioteca de asserção que auxilia o desenvolvimento de testes com Node.js;
 - 29 `mocha` - é um framework de testes para JavaScript;
 - 30 `sinon` - é uma ferramenta que auxilia na criação e utilização dos dublês;
+- 31 `middleware` - É uma função que realiza o tratamento de uma requisição HTTP
