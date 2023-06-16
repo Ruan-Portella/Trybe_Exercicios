@@ -1,0 +1,10 @@
+version: '3'
+services:
+  database:
+    image: mysql:8.0.29
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: todolistdb
+    ports: 
+      - "33060:3306"
