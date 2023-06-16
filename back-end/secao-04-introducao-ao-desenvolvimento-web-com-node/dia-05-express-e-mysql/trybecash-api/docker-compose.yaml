@@ -1,0 +1,26 @@
+version: '3'
+services:
+  node:
+    build:
+      dockerfile: ./Dockerfile
+      context: .
+    container_name: trybecash_api
+    restart: always
+    working_dir: /app
+    volumes:
+      - ./:/app
+    ports: 
+      - 3000:3000
+    depends_on:
+      - "database"
+
+  database:
+    image: mysql:8.0.29
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: trybecashdb
+    ports: 
+      - "33060:3306"
+    volumes:
+      - ./trybecash_script.sql:/docker-entrypoint-initdb.d/trybecash_script.sql

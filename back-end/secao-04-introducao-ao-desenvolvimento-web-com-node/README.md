@@ -34,12 +34,19 @@
 - 28 `chai` - é uma biblioteca de asserção que auxilia o desenvolvimento de testes com Node.js;
 - 29 `mocha` - é um framework de testes para JavaScript;
 - 30 `sinon` - é uma ferramenta que auxilia na criação e utilização dos dublês;
-- 31 `middleware` - É uma função que realiza o tratamento de uma requisição HTTP
-- 32 `express-async-error` - É um pacote que ajuda o express em middleware assíncronos;
-- 33 `express.json` - Um middleware que lê o conteúdo da requisição HTTP;
-- 34 `express.static` - Um middleware que pega o req.path e usa para procurar um arquivo;
-- 35 `morgan` - Um middleware para controlar os logs das requisições;
-- 36 `cors` - Um middleware que permite que outras aplicações front-end consumam a API;
-- 27 `helmet` - Um middleware que ajuda com a segurança da aplicação;
-- 28 `express-rate-limit` - Um middleware para limitar solicitações repetidas a APIs;
-- 29 `Router` - Um middleware que "agrupa" várias rotas em um mesmo lugar;
+- 31 `Router` - Um middleware que "agrupa" várias rotas em um mesmo lugar;
+- 32 `middleware` - É uma função que realiza o tratamento de uma requisição HTTP
+- 33 `express-async-error` - É um pacote que ajuda o express em middleware assíncronos;
+- 34 `express.json` - Um middleware que lê o conteúdo da requisição HTTP;
+- 35 `express.static` - Um middleware que pega o req.path e usa para procurar um arquivo;
+- 36 `morgan` - Um middleware para controlar os logs das requisições;
+- 37 `cors` - Um middleware que permite que outras aplicações front-end consumam a API;
+- 38 `helmet` - Um middleware que ajuda com a segurança da aplicação;
+- 39 `express-rate-limit` - Um middleware para limitar solicitações repetidas a APIs;
+- 40 `mysql2` - Biblioteca para conseguir fazer a conexão do express com o mysql;
+- 41 `host` - Endereço IP do MYSQL:
+- 42 `user` - nome do usuário que nossa aplicação utilizará para acessar o MySql;
+- 43 `port` - Número da porta que nossa aplicação utilizará para a acessar o Mysql;
+- 44 `password` - Senha do usuário que nossa aplicação utilizará para a acessar o Mysql;
+- 45 `database` - Nome do banco de dados MySQL;
+
