@@ -1,6 +1,6 @@
 # Trybe - Exercícios 
 
-Atividades desenvolvidas por [mim](https://www.linkedin.com/in/ruan-portella-734246108/) durante minha tragetória na [Trybe](https://www.betrybe.com/) :mortar_board:
+Atividades desenvolvidas por [mim](https://www.linkedin.com/in/ruan-portella-734246108/) durante minha trajetória na [Trybe](https://www.betrybe.com/) :mortar_board:
 
 >"O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, metodologias ágeis e habilidades comportamentais."
 
