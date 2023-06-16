@@ -34,3 +34,9 @@
 - 28 `chai` - é uma biblioteca de asserção que auxilia o desenvolvimento de testes com Node.js;
 - 29 `mocha` - é um framework de testes para JavaScript;
 - 30 `sinon` - é uma ferramenta que auxilia na criação e utilização dos dublês;
+- 31 `mysql2` - Biblioteca para conseguir fazer a conexão do express com o mysql;
+- 32 `host` - Endereço IP do MYSQL:
+- 33 `user` - nome do usuário que nossa aplicação utilizará para acessar o MySql;
+- 34 `port` - Número da porta que nossa aplicação utilizará para a acessar o Mysql;
+- 35 `password` - Senha do usuário que nossa aplicação utilizará para a acessar o Mysql;
+- 36 `database` - Nome do banco de dados MySQL;
