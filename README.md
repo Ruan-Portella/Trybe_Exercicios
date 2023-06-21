@@ -155,5 +155,14 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/ruan-portella-734
 - :white_check_mark: 4.2 - API REST com Express
 - :white_check_mark: 4.3 - Testes de Integração
 - :white_check_mark: 4.4 - Express e Middlewares
-- :clock1: 4.5 - Express e MySQL
-- :clock1: 4.6 - Projeto - Talker Manager
+- :white_check_mark: 4.5 - Express e MySQL
+- :white_check_mark: 4.6 - Projeto - Talker Manager
+
+#### Seção 05: [Arquitetura de Software: Model, Service e Controller](https://github.com/Ruan-Portella/Trybe_Exercicios/tree/main/back-end-secao-05-arquiretura-de-software)
+
+- :white_check_mark: 5.1 - Camada Model
+- :clock1: 5.2 - Refatorando Camada Model
+- :clock1: 5.3 - Camada Service
+- :clock1: 5.4 - Refatorando Camada Service
+- :clock1: 5.5 - Refatorando Camada Controller
+- :clock1: 5.6 - Projeto - Store Manager
