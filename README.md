@@ -161,8 +161,8 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/ruan-portella-734
 #### Seção 05: [Arquitetura de Software: Model, Service e Controller](https://github.com/Ruan-Portella/Trybe_Exercicios/tree/main/back-end-secao-05-arquiretura-de-software)
 
 - :white_check_mark: 5.1 - Camada Model
-- :clock1: 5.2 - Refatorando Camada Model
-- :clock1: 5.3 - Camada Service
+- :white_check_mark: 5.2 - Refatorando Camada Model
+- :white_check_mark: 5.3 - Camada Service
 - :clock1: 5.4 - Refatorando Camada Service
 - :clock1: 5.5 - Refatorando Camada Controller
 - :clock1: 5.6 - Projeto - Store Manager
