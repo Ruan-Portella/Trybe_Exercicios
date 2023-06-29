@@ -165,4 +165,4 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/ruan-portella-734
 - :white_check_mark: 5.3 - Camada Service
 - :white_check_mark: 5.4 - Refatorando Camada Service
 - :white_check_mark: 5.5 - Refatorando Camada Controller
-- :clock1: 5.6 - Projeto - Store Manager
+- :white_check_mark: 5.6 - Projeto - Store Manager
