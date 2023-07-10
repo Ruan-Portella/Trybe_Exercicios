@@ -7,4 +7,11 @@ const getAll = async () => {
     return users;
 };
 
-module.exports = { getAll };
+const getById = async (id) => {
+    const user = await Employee.findAll({
+        where: { id },
+    });
+    return user;
+};
+
+module.exports = { getAll, getById };

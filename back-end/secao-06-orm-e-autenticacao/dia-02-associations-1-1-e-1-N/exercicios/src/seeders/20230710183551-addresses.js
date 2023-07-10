@@ -20,6 +20,12 @@ module.exports = {
       street: 'Bobos',
       number: 0,
       employee_id: 3,
+    },
+    {
+      city: 'São Paulo',
+      street: 'Touobos',
+      number: 0,
+      employee_id: 3,
     }
    ], {});
   },
