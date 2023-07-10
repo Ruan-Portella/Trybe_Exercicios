@@ -1,9 +1,8 @@
 const express = require('express');
+const EmployeeController = require('./controllers/employee.controller');
 
 const app = express();
 
-app.get('/', (req, res) => {
-    res.send('Hello World');
-});
+app.get('/employees', EmployeeController.getAll)
 
 module.exports = app;
