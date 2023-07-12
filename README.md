@@ -172,7 +172,7 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/ruan-portella-734
 - :white_check_mark: 6.1 - Interface da aplicação com o banco de dados
 - :white_check_mark: 6.2 - Associations 1:1 e 1:N
 - :white_check_mark: 6.3 - Associations N:N e Transactions 
-- :clock1: 6.4 - (JSON Web Token)
+- :white_check_mark: 6.4 - (JSON Web Token)
 - :clock1: 6.5 - API de Blogs
 
 
