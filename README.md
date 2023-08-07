@@ -173,6 +173,17 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/ruan-portella-734
 - :white_check_mark: 6.2 - Associations 1:1 e 1:N
 - :white_check_mark: 6.3 - Associations N:N e Transactions 
 - :white_check_mark: 6.4 - (JSON Web Token)
-- :clock1: 6.5 - API de Blogs
+- :white_check_mark: 6.5 - API de Blogs
+
+#### Seção 07: [Masterclass: Implantação de Aplicações na Nuvem]
+
+- :white_check_mark: 7.1 - Infraestrutura - Deploy com Railway
+#### Seção 08: [Introdução a TypeScript](https://github.com/Ruan-Portella/Trybe_Exercicios/tree/main/back-end-secao-08-introducao-a-typescript)
+
+- :white_check_mark: 8.1 - Aprendendo TypeScript
+- :clock1: 8.2 - Introdução a Generics
+- :clock1: 8.3 - API REST com express, JWT, Sequelize e TypeScript 
+- :clock1: 8.4 - Testando aplicações com Typescript
+- :clock1: 8.5 - TrybeSmith
 
 
