@@ -181,8 +181,8 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/ruan-portella-734
 #### Seção 08: [Introdução a TypeScript](https://github.com/Ruan-Portella/Trybe_Exercicios/tree/main/back-end-secao-08-introducao-a-typescript)
 
 - :white_check_mark: 8.1 - Aprendendo TypeScript
-- :clock1: 8.2 - Introdução a Generics
-- :clock1: 8.3 - API REST com express, JWT, Sequelize e TypeScript 
+- :white_check_mark: 8.2 - Introdução a Generics
+- :white_check_mark: 8.3 - API REST com express, JWT, Sequelize e TypeScript 
 - :clock1: 8.4 - Testando aplicações com Typescript
 - :clock1: 8.5 - TrybeSmith
 
