@@ -187,7 +187,7 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/ruan-portella-734
 - :white_check_mark: 8.5 - TrybeSmith
 #### Seção 09: [Programação Orientada a Objetos (POO) e SOLID](https://github.com/Ruan-Portella/Trybe_Exercicios/tree/main/back-end-secao-09-programacao-orientada-a-objetos-poo-e-solid)
 
-- :clock9: 9.1 - Introdução à Programação Orientada a Objetos
+- :white_check_mark: 9.1 - Introdução à Programação Orientada a Objetos
 - :clock9: 9.2 - Herança e Composição
 - :clock9: 9.3 - Polimorfismo 
 - :clock9: 9.4 - Introdução e Princípios S, O e D
