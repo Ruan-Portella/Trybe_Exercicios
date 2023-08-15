@@ -184,6 +184,6 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/ruan-portella-734
 - :white_check_mark: 8.2 - Introdução a Generics
 - :white_check_mark: 8.3 - API REST com express, JWT, Sequelize e TypeScript 
 - :white_check_mark: 8.4 - Testando aplicações com Typescript
-- :clock1: 8.5 - TrybeSmith
+- :white_check_mark: 8.5 - TrybeSmith
 
 
