@@ -185,5 +185,11 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/ruan-portella-734
 - :white_check_mark: 8.3 - API REST com express, JWT, Sequelize e TypeScript 
 - :white_check_mark: 8.4 - Testando aplicações com Typescript
 - :white_check_mark: 8.5 - TrybeSmith
+#### Seção 09: [Programação Orientada a Objetos (POO) e SOLID](https://github.com/Ruan-Portella/Trybe_Exercicios/tree/main/back-end-secao-09-programacao-orientada-a-objetos-poo-e-solid)
 
-
+- :white_check_mark: 9.1 - Introdução à Programação Orientada a Objetos
+- :clock9: 9.2 - Herança e Composição
+- :clock9: 9.3 - Polimorfismo 
+- :clock9: 9.4 - Introdução e Princípios S, O e D
+- :clock9: 9.5 - Princípios L e I
+- :clock9: 9.6 - Projeto - Trybers and Dragons
