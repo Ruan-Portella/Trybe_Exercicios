@@ -15,3 +15,6 @@
 - 9 `Polimorfismo` - É a capacidade de tratar objetos criados a partir de classes específicas como objetos de uma classe genérica. Isso permite que um mesmo método possa ser utilizado para objetos diferentes.
 - 10 `Getters` - São métodos que permitem a leitura de atributos privados de uma classe.
 - 11 `Setters` - São métodos que permitem a alteração de atributos privados de uma classe.
+- 13 `Classes, Atributos e Métodos Abstratos` - São classes, atributos e métodos que não possuem implementação. São utilizados para definir um padrão para as classes filhas.
+- 14 `Método Estático` - É um método que pode ser executado sem que seja necessário instanciar um objeto. São métodos que não dependem do estado do objeto para serem executados.
+- 15 `Interface` - É um tipo especial de classe abstrata que define um conjunto de métodos que devem ser implementados pelas classes filhas.
