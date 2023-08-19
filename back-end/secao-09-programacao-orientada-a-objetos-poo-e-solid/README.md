@@ -18,3 +18,6 @@
 - 13 `Classes, Atributos e Métodos Abstratos` - São classes, atributos e métodos que não possuem implementação. São utilizados para definir um padrão para as classes filhas.
 - 14 `Método Estático` - É um método que pode ser executado sem que seja necessário instanciar um objeto. São métodos que não dependem do estado do objeto para serem executados.
 - 15 `Interface` - É um tipo especial de classe abstrata que define um conjunto de métodos que devem ser implementados pelas classes filhas.
+- 16 `Single Responsibility Principle (SRP)` - Princípio da Responsabilidade Única. Uma classe deve ter um, e somente um, motivo para mudar.
+- 17 `Open-Closed Principle (OCP)` - Princípio Aberto-Fechado. Uma classe deve estar aberta para extensão, mas fechada para modificação.
+- 18 `Dependency Inversion Principle (DIP)` - Princípio da Inversão de Dependência. Dependa de uma abstração e não de uma implementação.
