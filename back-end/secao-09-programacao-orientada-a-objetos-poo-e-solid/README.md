@@ -21,3 +21,5 @@
 - 16 `Single Responsibility Principle (SRP)` - Princípio da Responsabilidade Única. Uma classe deve ter um, e somente um, motivo para mudar.
 - 17 `Open-Closed Principle (OCP)` - Princípio Aberto-Fechado. Uma classe deve estar aberta para extensão, mas fechada para modificação.
 - 18 `Dependency Inversion Principle (DIP)` - Princípio da Inversão de Dependência. Dependa de uma abstração e não de uma implementação.
+- 19 `Liskov Substitution Principle (LSP)` - Princípio da Substituição de Liskov. Uma classe derivada deve ser substituível por sua classe base.
+- 20 `Interface Segregation Principle (ISP)` - Princípio da Segregação de Interfaces. Muitas interfaces específicas são melhores do que uma interface única.

@@ -191,5 +191,5 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/ruan-portella-734
 - :white_check_mark: 9.2 - Herança e Composição
 - :white_check_mark: 9.3 - Polimorfismo 
 - :white_check_mark: 9.4 - Introdução e Princípios S, O e D
-- :clock9: 9.5 - Princípios L e I
+- :white_check_mark: 9.5 - Princípios L e I
 - :clock9: 9.6 - Projeto - Trybers and Dragons
