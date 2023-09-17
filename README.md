@@ -125,7 +125,7 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/ruan-portella-734
 - :white_check_mark: 8.4 - Projeto - StarWars Datatable com Context API e hooks
 - :white_check_mark: 8.5 - Projeto - App de Receitas
 
-## Módulo: Back End :clock1:
+## Módulo: Back End :white_check_mark:
 #### Seção 01: [Docker: Utilizando Containers](https://github.com/Ruan-Portella/Trybe_Exercicios/tree/main/back-end-secao-01-docker-utilizando-containers)
 
 - :white_check_mark: 1.1 - Utilizando Containers: Docker
@@ -192,4 +192,11 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/ruan-portella-734
 - :white_check_mark: 9.3 - Polimorfismo 
 - :white_check_mark: 9.4 - Introdução e Princípios S, O e D
 - :white_check_mark: 9.5 - Princípios L e I
-- :clock9: 9.6 - Projeto - Trybers and Dragons
+- :white_check_mark: 9.6 - Projeto - Trybers and Dragons
+
+## Módulo: Ciência da Computação :clock1:
+#### Seção 01: [Introdução à Python](https://github.com/Ruan-Portella/Trybe_Exercicios/tree/main/back-end-secao-01-introducao-a-python)
+
+- :clock1: 1.1 - Aprendendo Python
+- :clock1: 1.2 - Entrada e Saída de Dados com Testes
+
