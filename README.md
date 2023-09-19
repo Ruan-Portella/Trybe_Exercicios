@@ -197,6 +197,6 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/ruan-portella-734
 ## Módulo: Ciência da Computação :clock1:
 #### Seção 01: [Introdução à Python](https://github.com/Ruan-Portella/Trybe_Exercicios/tree/main/back-end-secao-01-introducao-a-python)
 
-- :clock1: 1.1 - Aprendendo Python
-- :clock1: 1.2 - Entrada e Saída de Dados com Testes
+- :white_check_mark: 1.1 - Aprendendo Python
+- :white_check_mark: 1.2 - Entrada e Saída de Dados com Testes
 
