@@ -195,8 +195,15 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/ruan-portella-734
 - :white_check_mark: 9.6 - Projeto - Trybers and Dragons
 
 ## Módulo: Ciência da Computação :clock1:
-#### Seção 01: [Introdução à Python](https://github.com/Ruan-Portella/Trybe_Exercicios/tree/main/back-end-secao-01-introducao-a-python)
+#### Seção 01: [Introdução à Python](https://github.com/Ruan-Portella/Trybe_Exercicios/tree/main/ciencia-da-computacao-secao-01-introducao-a-python)
 
 - :white_check_mark: 1.1 - Aprendendo Python
 - :white_check_mark: 1.2 - Entrada e Saída de Dados com Testes
+
+#### Seção 02: [Algoritmos](https://github.com/Ruan-Portella/Trybe_Exercicios/tree/main/ciencia-da-computacao-secao-02-algoritmos)
+
+- :clock1: 1.1 - Complexidade de Algoritmos
+- :clock1: 1.2 - Recursividade e Estratégias para Solução de Problemas
+- :clock1: 1.3 - Algoritmos de ordenação e busca
+- :clock1: 1.4 - Projeto - Algoritmos
 
