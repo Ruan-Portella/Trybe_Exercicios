@@ -203,7 +203,7 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/ruan-portella-734
 #### Seção 02: [Algoritmos](https://github.com/Ruan-Portella/Trybe_Exercicios/tree/main/ciencia-da-computacao-secao-02-algoritmos)
 
 - :white_check_mark: 1.1 - Complexidade de Algoritmos
-- :clock1: 1.2 - Recursividade e Estratégias para Solução de Problemas
+- :white_check_mark: 1.2 - Recursividade e Estratégias para Solução de Problemas
 - :clock1: 1.3 - Algoritmos de ordenação e busca
 - :clock1: 1.4 - Projeto - Algoritmos
 
