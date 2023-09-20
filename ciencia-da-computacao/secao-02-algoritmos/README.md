@@ -12,4 +12,6 @@
 - 6 `O(log n)` - Logarítmico, o tempo de execução cresce de forma logarítmica em relação ao tamanho da entrada.
 - 7 `O(2n)` - Exponencial, o tempo de execução cresce de forma exponencial em relação ao tamanho da entrada.
 - 8 `O(n!)` - Fatorial, o tempo de execução cresce de forma fatorial em relação ao tamanho da entrada.
-   
+- 9 `leis da recursividade` - 1º: Um algoritmo recursivo deve ter um caso base; 2º: Um algoritmo recursivo deve mudar seu estado e se aproximar do caso base; 3º: Um algoritmo recursivo deve chamar a si mesmo, recursivamente.
+- 10 `pilha de chamadas` - É uma pilha de funções que precisam ser executadas. A cada chamada de função, uma nova função é adicionada ao topo da pilha. Quando uma função termina, ela é removida da pilha.
+- 
