@@ -202,8 +202,16 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/ruan-portella-734
 
 #### Seção 02: [Algoritmos](https://github.com/Ruan-Portella/Trybe_Exercicios/tree/main/ciencia-da-computacao-secao-02-algoritmos)
 
-- :white_check_mark: 1.1 - Complexidade de Algoritmos
-- :white_check_mark: 1.2 - Recursividade e Estratégias para Solução de Problemas
-- :white_check_mark:: 1.3 - Algoritmos de ordenação e busca
-- :white_check_mark: 1.4 - Projeto - Algoritmos
+- :white_check_mark: 2.1 - Complexidade de Algoritmos
+- :white_check_mark: 2.2 - Recursividade e Estratégias para Solução de Problemas
+- :white_check_mark:: 2.3 - Algoritmos de ordenação e busca
+- :white_check_mark: 2.4 - Projeto - Algoritmos
+
+#### Seção 03: [Estrutura de Dados I: Listas Lineares](https://github.com/Ruan-Portella/Trybe_Exercicios/tree/main/ciencia-da-computacao-secao-03-estrutura-de-dados-1)
+
+- :clock9: 3.1 - P.O.O em Python
+- :clock9: 3.2 - Arrays
+- :clock9: 3.3 - Nó e Listas Encadeadas
+- :clock9: 3.4 - Pilhas e Filas
+- :clock9: 3.5 - Projeto - Trybe is Not Google
 
