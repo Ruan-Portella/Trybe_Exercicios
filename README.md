@@ -209,9 +209,9 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/ruan-portella-734
 
 #### Seção 03: [Estrutura de Dados I: Listas Lineares](https://github.com/Ruan-Portella/Trybe_Exercicios/tree/main/ciencia-da-computacao-secao-03-estrutura-de-dados-1)
 
-- :clock9: 3.1 - P.O.O em Python
-- :clock9: 3.2 - Arrays
-- :clock9: 3.3 - Nó e Listas Encadeadas
+- :white_check_mark: 3.1 - P.O.O em Python
+- :white_check_mark: 3.2 - Arrays
+- :white_check_mark: 3.3 - Nó e Listas Encadeadas
 - :clock9: 3.4 - Pilhas e Filas
 - :clock9: 3.5 - Projeto - Trybe is Not Google
 
