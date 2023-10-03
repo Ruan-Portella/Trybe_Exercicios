@@ -214,4 +214,9 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/ruan-portella-734
 - :white_check_mark: 3.3 - Nó e Listas Encadeadas
 - :white_check_mark: 3.4 - Pilhas e Filas
 - :white_check_mark: 3.5 - Projeto - Trybe is Not Google
+#### Seção 04: [Estrutura de Dados II: Hashmaps e Sets](https://github.com/Ruan-Portella/Trybe_Exercicios/tree/main/ciencia-da-computacao-secao-04-estrutura-de-dados-2)
+
+- :clock1: 4.1 - Hashmap e Dict
+- :clock1: 4.2 - Set
+- :clock1: 4.3 - Projeto - Restaurant Orders
 
