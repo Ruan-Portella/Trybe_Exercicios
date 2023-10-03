@@ -213,5 +213,5 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/ruan-portella-734
 - :white_check_mark: 3.2 - Arrays
 - :white_check_mark: 3.3 - Nó e Listas Encadeadas
 - :white_check_mark: 3.4 - Pilhas e Filas
-- :clock9: 3.5 - Projeto - Trybe is Not Google
+- :white_check_mark: 3.5 - Projeto - Trybe is Not Google
 
