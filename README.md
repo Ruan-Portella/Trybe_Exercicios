@@ -217,6 +217,6 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/ruan-portella-734
 #### Seção 04: [Estrutura de Dados II: Hashmaps e Sets](https://github.com/Ruan-Portella/Trybe_Exercicios/tree/main/ciencia-da-computacao-secao-04-estrutura-de-dados-2)
 
 - :white_check_mark: 4.1 - Hashmap e Dict
-- :clock1: 4.2 - Set
-- :clock1: 4.3 - Projeto - Restaurant Orders
+- :white_check_mark: 4.2 - Set
+- :white_check_mark: 4.3 - Projeto - Restaurant Orders
 
