@@ -12,3 +12,5 @@
 6 `open addressing` - É uma técnica de tratamento de colisão em que todos os elementos são armazenados na própria tabela hash. Quando ocorre uma colisão, o elemento é armazenado em uma posição diferente da tabela hash que é calculada por uma função de sondagem.
 7 `linear probing` - É uma técnica de tratamento de colisão em que, quando ocorre uma colisão, o elemento é armazenado na primeira posição vazia da tabela hash.
 8 `dict` - É uma estrutura de dados que armazena dados na forma de pares chave-valor. É uma estrutura de dados que associa chaves de pesquisa a valores. É uma implementação de uma tabela de espalhamento (hash table) que permite a qualquer valor ser armazenado e recuperado utilizando uma chave de identificação única.
+9 `set` - É uma estrutura de dados que armazena dados na forma de uma coleção de elementos únicos. É uma coleção de elementos que não permite elementos duplicados.
+10 `set operations` - Operações que podem ser realizadas em conjuntos. São elas: união, interseção, diferença e diferença simétrica.
