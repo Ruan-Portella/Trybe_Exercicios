@@ -185,6 +185,7 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/ruan-portella-734
 - :white_check_mark: 8.3 - API REST com express, JWT, Sequelize e TypeScript 
 - :white_check_mark: 8.4 - Testando aplicações com Typescript
 - :white_check_mark: 8.5 - TrybeSmith
+  
 #### Seção 09: [Programação Orientada a Objetos (POO) e SOLID](https://github.com/Ruan-Portella/Trybe_Exercicios/tree/main/back-end-secao-09-programacao-orientada-a-objetos-poo-e-solid)
 
 - :white_check_mark: 9.1 - Introdução à Programação Orientada a Objetos
@@ -194,7 +195,8 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/ruan-portella-734
 - :white_check_mark: 9.5 - Princípios L e I
 - :white_check_mark: 9.6 - Projeto - Trybers and Dragons
 
-## Módulo: Ciência da Computação :clock1:
+## Módulo: Ciência da Computação :white_check_mark:
+
 #### Seção 01: [Introdução à Python](https://github.com/Ruan-Portella/Trybe_Exercicios/tree/main/ciencia-da-computacao-secao-01-introducao-a-python)
 
 - :white_check_mark: 1.1 - Aprendendo Python
@@ -214,9 +216,9 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/ruan-portella-734
 - :white_check_mark: 3.3 - Nó e Listas Encadeadas
 - :white_check_mark: 3.4 - Pilhas e Filas
 - :white_check_mark: 3.5 - Projeto - Trybe is Not Google
+  
 #### Seção 04: [Estrutura de Dados II: Hashmaps e Sets](https://github.com/Ruan-Portella/Trybe_Exercicios/tree/main/ciencia-da-computacao-secao-04-estrutura-de-dados-2)
 
 - :white_check_mark: 4.1 - Hashmap e Dict
 - :white_check_mark: 4.2 - Set
 - :white_check_mark: 4.3 - Projeto - Restaurant Orders
-
