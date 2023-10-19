@@ -227,7 +227,7 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/ruan-portella-734
 
 #### Seção 01: [Fundamentos de Java](https://github.com/Ruan-Portella/Trybe_Exercicios/tree/main/eletiva-java-secao-01-fundamentos-de-java)
 
-- :clock1: 1.1 - Introdução ao Desenvolvimento em Java e Ferramentas Essenciais
+- :white_check_mark: 1.1 - Introdução ao Desenvolvimento em Java e Ferramentas Essenciais
 - :clock1: 1.2 - Classes e Tipos de Dados
 - :clock1: 1.3 - Controle de Fluxo e Entrada de Dados
 - :clock1: 1.4 - Gerenciamento de Dependências
