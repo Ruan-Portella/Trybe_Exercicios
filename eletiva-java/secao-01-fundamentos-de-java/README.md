@@ -27,3 +27,8 @@
 - 21 `scanner.next()` - Lê a próxima palavra digitada pelo usuário.
 - 22 `System.out.println()` - Imprime uma mensagem no console com formatação.
 - 23 `scanner.close()` - Fecha o scanner.
+- 24 `Maven` - Gerenciador de dependências.
+- 25 `pom.xml` - Arquivo que contém as dependências do projeto.
+- 26 `groupID` - Identificador do projeto.
+- 27 `artifactID` - Identificador do projeto.
+- 28 `version` - Versão do projeto.
