@@ -21,3 +21,9 @@
 - 15 `boolean` - Tipo de variável que armazena valores booleanos.
 - 16 `String` - Tipo de variável que armazena cadeias de caracteres.
 - 17 `Integer` - Tipo de variável que armazena números inteiros e que possui métodos.
+- 18 `Scanner` - Classe que permite a entrada de dados pelo usuário.
+- 19 `System.in` - Entrada de dados pelo teclado.
+- 20 `System.out.print()` - Imprime uma mensagem no console com formatação.
+- 21 `scanner.next()` - Lê a próxima palavra digitada pelo usuário.
+- 22 `System.out.println()` - Imprime uma mensagem no console com formatação.
+- 23 `scanner.close()` - Fecha o scanner.
