@@ -232,3 +232,9 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/ruan-portella-734
 - :white_check_mark: 1.3 - Controle de Fluxo e Entrada de Dados
 - :white_check_mark: 1.4 - Gerenciamento de Dependências
 - :white_check_mark: 1.5 - Projeto - Regra de Progressão
+
+#### Seção 02: [Orientação a Objetos](https://github.com/Ruan-Portella/Trybe_Exercicios/tree/main/eletiva-java-secao-02-orientacao-a-objetos)
+
+- :white_check_mark: 2.1 - Abstração, Encapsulamento e Herança
+- :white_check_mark: 2.2 - Polimofirsmo, Interfaces e Classes Abstratas
+- :white_check_mark: 2.3 - Projeto - Sistema de Votação
