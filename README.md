@@ -238,3 +238,13 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/ruan-portella-734
 - :white_check_mark: 2.1 - Abstração, Encapsulamento e Herança
 - :white_check_mark: 2.2 - Polimofirsmo, Interfaces e Classes Abstratas
 - :white_check_mark: 2.3 - Projeto - Sistema de Votação
+
+#### Seção 03: [Java Web](https://github.com/Ruan-Portella/Trybe_Exercicios/tree/main/eletiva-java-secao-03-java-web)
+
+- :white_check_mark: 3.1 - Introdução a Java Web e Spring
+- :white_check_mark: 3.2 - Injeção de dependência com Spring
+- :white_check_mark: 3.3 - API REST com Spring
+- :clock1: 3.4 - Exceções
+- :clock1: 3.5 - Testes com JUnit
+- :clock1: 3.6 - Containers Java e Docker
+- :clock1: 3.7 - Projeto - Localizador de Museus
