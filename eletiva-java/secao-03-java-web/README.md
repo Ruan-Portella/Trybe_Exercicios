@@ -28,3 +28,15 @@
 - 22 `@RequestParam` - Anotação para indicar que o parâmetro deve ser preenchido com o valor do parâmetro da URL.
 - 23 `JsonIgnoreProperties` - Anotação para indicar que a propriedade deve ser ignorada na serialização.
 - 24 `ResponseEntity` - Classe para representar a resposta HTTP.
+- 25 `Throwable` - Classe base para todas as exceções e erros.
+- 26 `Exception` - Classe base para todas as exceções que não são erros.
+- 27 `Error` - Classe base para todos os erros.
+- 28 `try` - Bloco de código que pode lançar uma exceção.
+- 29 `catch` - Bloco de código que trata uma exceção.
+- 30 `finally` - Bloco de código que é executado após o `try` e o `catch`.
+- 31 `throw` - Lança uma exceção.
+- 32 `checked` - Exceções que devem ser tratadas.
+- 33 `unchecked` - Exceções que não precisam ser tratadas.
+- 34 `@ResponseStatus` - Anotação que define o status de uma resposta HTTP.
+- 35 `@ExceptionHandler` - Anotação que define um método para tratar uma exceção.
+- 36 `@ControllerAdvice` - Anotação que define uma classe como um tratador de exceções.
