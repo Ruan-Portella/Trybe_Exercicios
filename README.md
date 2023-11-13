@@ -249,3 +249,23 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/ruan-portella-734
 - :white_check_mark: 3.6 - Containers Java e Docker
 - :white_check_mark: 3.7 - Projeto - Localizador de Museus
 
+#### Seção 04: [Persistência I](https://github.com/Ruan-Portella/Trybe_Exercicios/tree/main/eletiva-java-secao-04-persistencia-I)
+
+- :white_check_mark: 4.1 - Coleções
+- :clock1: 4.2 - Spring Data JPA
+- :clock1: 4.3 - Spring Data Relacionamentos
+- :clock1: 4.4 - Projeto - Agrix Fase A
+
+#### Seção 05: [Persistência II](https://github.com/Ruan-Portella/Trybe_Exercicios/tree/main/eletiva-java-secao-05-persistencia-II)
+
+- :clock1: 5.1 - Testes com Spring Data
+- :clock1: 5.2 - Data e Hora
+- :clock1: 5.3 - Buscas Customizadas
+- :clock1: 5.4 - Auditoria
+- :clock1: 5.5 - Projeto - Agrix Fase B
+
+#### Seção 06: [Spring Security](https://github.com/Ruan-Portella/Trybe_Exercicios/tree/main/eletiva-java-secao-06-spring-security)
+
+- :clock1: 6.1 - Autenticação
+- :clock1: 6.2 - Autorização
+- :clock1: 6.3 - Projeto - Agrix Fase C
