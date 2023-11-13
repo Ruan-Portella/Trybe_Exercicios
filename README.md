@@ -245,6 +245,7 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/ruan-portella-734
 - :white_check_mark: 3.2 - Injeção de dependência com Spring
 - :white_check_mark: 3.3 - API REST com Spring
 - :white_check_mark: 3.4 - Exceções
-- :clock1: 3.5 - Testes com JUnit
-- :clock1: 3.6 - Containers Java e Docker
-- :clock1: 3.7 - Projeto - Localizador de Museus
+- :white_check_mark: 3.5 - Testes com JUnit
+- :white_check_mark: 3.6 - Containers Java e Docker
+- :white_check_mark: 3.7 - Projeto - Localizador de Museus
+
