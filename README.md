@@ -266,6 +266,6 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/ruan-portella-734
 
 #### Seção 06: [Spring Security](https://github.com/Ruan-Portella/Trybe_Exercicios/tree/main/eletiva-java-secao-06-spring-security)
 
-- :clock1: 6.1 - Autenticação
-- :clock1: 6.2 - Autorização
-- :clock1: 6.3 - Projeto - Agrix Fase C
+- :white_check_mark: 6.1 - Autenticação
+- :white_check_mark: 6.2 - Autorização
+- :white_check_mark: 6.3 - Projeto - Agrix Fase C
