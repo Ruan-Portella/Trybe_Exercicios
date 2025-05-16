@@ -223,7 +223,7 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/ruan-portella-734
 - :white_check_mark: 4.2 - Set
 - :white_check_mark: 4.3 - Projeto - Restaurant Orders
 
-## Módulo: Eletiva Java :clock1:
+## Módulo: Eletiva Java :white_check_mark:
 
 #### Seção 01: [Fundamentos de Java](https://github.com/Ruan-Portella/Trybe_Exercicios/tree/main/eletiva-java-secao-01-fundamentos-de-java)
 
@@ -261,8 +261,8 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/ruan-portella-734
 - :white_check_mark: 5.1 - Testes com Spring Data
 - :white_check_mark: 5.2 - Data e Hora
 - :white_check_mark: 5.3 - Buscas Customizadas
-- :clock1: 5.4 - Auditoria
-- :clock1: 5.5 - Projeto - Agrix Fase B
+- :white_check_mark: 5.4 - Auditoria
+- :white_check_mark: 5.5 - Projeto - Agrix Fase B
 
 #### Seção 06: [Spring Security](https://github.com/Ruan-Portella/Trybe_Exercicios/tree/main/eletiva-java-secao-06-spring-security)
 
